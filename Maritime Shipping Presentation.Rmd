@@ -1,0 +1,192 @@
+---
+title: "Project Report Presentation: Maritime Shipping Influences Global Economy"
+author: "Chayanggoon Hipkaeo (e-mail: hipkaeo.chayanggoon@stud.hs-fresenius.de)"
+date: '2022-11-10'
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+    number_sections: yes
+  html_document:
+    toc: yes
+    toc_depth: 2
+    number_sections: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+citation_package: natbib
+biblio-style: apalike
+fontsize: 12pt
+urlcolor: blue
+linkcolor: red
+bibliography: citation.bib
+link-citations: yes
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+```{r include=FALSE, echo=FALSE}
+getwd()
+```
+
+Word count: `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20`
+
+
+ *Source* : [United State Environmental Protection Agency](https://19january2017snapshot.epa.gov/sites/production/files/2016-06/air_pollution_transport_2.jpg)
+
+# Introduction 
+*Why Maritime Shipping is interesting:* Shipping is the cornerstone of international trade. It is connected to numerous industries. Shipping is used to deliver food, medicine, and technological equipment, among other things. Especially in the developing world, cost-effective shipping mechanisms are used to promote growth and sustainable development. There is no country in the world capable of surviving without maritime shipping. Due to the fact that trade and commerce are fully dependent on maritime shipping, it has become a crucial factor in the global economy. As raw materials or completed goods, our products for daily use are delivered by sea.
+
+
+```{r include=TRUE, echo=FALSE, out.width="100%", fig.width=6, fig.height=4}
+knitr::include_graphics("Global_Maritime_Growth_Rate_2020.jpeg", error = FALSE)
+```
+
+SOURCE: @maritimesegments
+
+The purpose of this project report is to demonstrate the use of "R Studio" with coding, processing, and using tools in order to present the database and statistics of the world economy regarding maritime transport operations. All mentioned will be discussed together with discussing a significance of shipping industry that affects the global economy.
+
+# Questions
+
+This project focuses on the study of maritime shipping, beginning with the topic of how the maritime shipping industry impacts the global economy. Consequently, further study was undertaken to present the proposal. Nonetheless, as the study was being conducted, other questions arose, such as: 
+
+* What are the major components of maritime transportation? 
+* Which region is the leader of the world's major fleets?
+* Which countries are listed as the top five global port operations?
+* Who is the most powerful country in the world maritime industry?, etc.
+
+# Definitions
+
+## Motor Vessel (or Motor Ship)
+
+"A vessel that employs a marine diesel engine as its propulsion method. The fuel efficiency of diesel engines causes them to operate more cost effectively than steam turbine plants, which were used in earlier vessel designs" [@definitionsofmaritimerelatedacronym].
+
+These figures make it very clear that liner services are more expensive than tramp transport [@typeofvessels].
+
+```{r include=TRUE, echo=FALSE, out.width="100%", fig.width=6, fig.height=4}
+knitr::include_graphics("Container_Vessel.jpeg", error = FALSE)
+```
+
+SOURCE: @portoperations
+
+## Dead-weight tons (dwt) and Gross tons (gt)
+
+The unit dead-weight tons (dwt) is used to define the cargo-carrying capability of a vessel, while gross tons (gt) are used to measure its size. The latter is used to quantify shipbuilding and recycling activity, whilst the former is used to measure freight transit capacity [@maritimetransport].
+
+The stated fleet registration (flag of a ship), shipbuilding, and recycling data apply to all commercial vessels over 100 gross tons. The ownership market shares only include vessels with a gross tonnage of 1,000 gross tons or more, as the true ownership of smaller vessels is not always known (UNCTAD, 2021).
+
+## Hong Kong SAR
+
+SAR is an abbreviation form "Special Administrative Region". The special administrative regions (SAR) of the People's Republic of China are one of the provincial-level administrative divisions of the People's Republic of China directly under the control of its Central People's Government (State Council), being integral areas of the country. As a region, they possess the highest degree of autonomy from China. However, despite the relative autonomy that the Central People's Government offers the special administrative regions, the National People's Congress remains capable of enforcing laws for the special administrative regions [@specialadministrativeregionofchina].
+
+# The Data Set
+
+* [STATISTA 2022](https://www.statista.com/statistics/264024/number-of-merchant-ships-worldwide-by-type/)
+* [UNCTAD](https://hbs.unctad.org/merchant-fleet/)
+* [The Global Port Operations](https://www.kaggle.com/datasets/sanjeetsinghnaik/ship-ports)
+
+## STATISTA 2022:
+
+* Number of ships in the world merchant fleet as of January 1, 2022 ( 7 Obs. 2 Var.)
+
+```{r include=TRUE, echo=FALSE, out.width="80%", fig.width=6, fig.height=4}
+knitr::include_graphics("Statista1.jpeg", error = FALSE)
+```
+
+SOURCE: @bytypeofships
+
+## UNCTAD data
+
+* World fleet by principal vessel type (1981 -2022) (42 Obs. 6 Var.)
+
+```{r include=TRUE, echo=FALSE, out.width="80%", fig.width=6, fig.height=4}
+knitr::include_graphics("Data 1.jpeg", error = FALSE)
+```
+
+SOURCE: @maritimetransport
+
+* Fleet market by region of beneficial ownership, 2022 (6 Obs. 2 Var. *Noted: Data collected and summarized*) 
+
+```{r include=TRUE, echo=FALSE, out.width="80%", fig.width=6, fig.height=4}
+knitr::include_graphics("Data 2.jpeg", error = FALSE)
+```
+
+SOURCE: @maritimetransport
+
+
+* Vessels capacity in top five registries (1992 - 2022) (31 Obs. 6 Var.)
+
+```{r include=TRUE, echo=FALSE, out.width="80%", fig.width=6, fig.height=4}
+knitr::include_graphics("Data 3.jpeg", error = FALSE)
+```
+
+SOURCE: @maritimetransport
+
+## Kaggle
+
+* The Global Port Operations (Port Operations within 24 Hours. Collected 2021-2022, 480 Obs., 12 Var.)
+
+```{r include=TRUE, echo=FALSE, out.width="80%", fig.width=6, fig.height=4}
+knitr::include_graphics("Kaggle1.jpeg", error = FALSE)
+```
+
+SOURCE: @maritimeportops
+
+# Types of Cargo Ships (a.k.a. Cargo Vessels)
+
+Cargo ships are classed according to their function, size, cargo type, etc. The economic aspect is of the utmost importance while constructing a commercial ship. Every owner desires a high rate of return on their investment, which implies that a ship's design must take into account both current economic requirements and future adaptability.
+
+## Ships Categories (in the economic world)
+
+* Container Ships
+* Bulk Carriers
+* Tanker Ships
+* Roll-on Roll-off Ships
+* Passenger Ships
+* Fishing Vessels
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, include=FALSE}
+types <- c("General cargo ships", "Bulk cargo carriers", "Crude oil tankers", "Ro-Ro/ Passenger ships", "Chemical tankers", "Container ships", "Liquefied natural gas tankers")
+numbers <- c("15.106", "12.258", "7.350", "7.027", "5.664", "5.307", "2.031")
+types <- data.frame(types, numbers)
+types
+knitr::kable(types, "pipe", col.names = c("Type", "Number"), align = c("l", "c"))
+```
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
+
+
+
+```{r echo=FALSE, include=FALSE}
+# Add code chunk here and explain - Merchant_Fleet
+```
+
+```{r echo=FALSE, include=FALSE}
+Port_Data <- read.csv("~/Downloads/Port_Data.csv", dec=",")
+Port_Data
+```
+
+```{r echo=FALSE, include=FALSE}
+Port_Data <- read.csv("~/Downloads/Port_Data.csv", dec=",")
+plot(Port_Data$Vessels.in.Port ~ Port_Data$Departures.Last.24.Hours.)
+```
+
+```{r echo=FALSE, include=FALSE}
+Port_Data <- read.csv("~/Downloads/Port_Data.csv", dec=",")
+barplot(Port_Data$Vessels.in.Port)
+```
+
+```{r echo=FALSE, include=FALSE}
+Port_Data <- read.csv("~/Downloads/Port_Data.csv", dec=",")
+barplot(Port_Data$Departures.Last.24.Hours.)
+```
+
+# Reference
