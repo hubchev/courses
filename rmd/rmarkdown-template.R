@@ -2,6 +2,16 @@
 library("knitr")
 knit_hooks$set(purl = hook_purl)
 
+## ----message=FALSE, include=FALSE---------------------------------------------
+#install.packages("devtools")
+#library("devtools")
+#devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = T)
+library("wordcountaddin")
+
+## ---- echo=F, message=FALSE---------------------------------------------------
+#Wordcount:
+wordcount <- wordcountaddin::word_count( )
+
 ## ----echo=TRUE----------------------------------------------------------------
 setwd("/home/sthu/Dropbox/hsf/github/courses/rmd/")
 

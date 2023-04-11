@@ -34,7 +34,7 @@ knit_hooks$set(purl = hook_purl)
 Word count: `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20`
 
 # Abstract {-}
-In the following I describe the project that needs to be submitted in the course _Data Science for Businesses_. I give some hints for your efficient progress and success, I introduce the elements and files to be submitted, and I describe how I evaluate the submissions. 
+In the following I describe the project that needs to be submitted in the course _Data Science for Business_. I give some hints for your efficient progress and success, I introduce the elements and files to be submitted, and I describe how I evaluate the submissions. 
 
 # Main goal
 

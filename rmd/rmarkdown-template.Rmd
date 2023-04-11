@@ -1,8 +1,8 @@
 ---
-title: "Title"
+title: "R Markdown Template"
 author: "Stephan.Huber@hs-fresenius.de"
-date: 'HS-Fresenius: Data Science for Business'
-  output:
+date:  "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+output:
   html_document:
     toc: yes
     toc_depth: 3
@@ -17,35 +17,49 @@ date: 'HS-Fresenius: Data Science for Business'
   word_document:
     toc: yes
     toc_depth: '3'
+link-citations: yes
 citation_package: natbib
 biblio-style: apalike
 fontsize: 12pt
 urlcolor: blue
 linkcolor: red
 bibliography: ../lit/references.bib
+abstract: "This document is a template that you can use to produce documents with Rmarkdown. This is my abstract. It is good practice for academic papers to offer an abstract to the reader."
 ---
 
-```{r setup, include=FALSE}
-library("knitr")
-knit_hooks$set(purl = hook_purl)
+# Word count {-}
+
+You can include a word count in various ways. Here are two alternatives:
+
+This code installs and loads the required packages and save the words counted:
+```{r echo=TRUE, message=FALSE}
+#install.packages("devtools")
+#library("devtools")
+#devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = T)
+library("wordcountaddin")
+wordcount <- wordcountaddin::word_count( )
 ```
+
+__Word count:__ `r wordcount`
+
+
+Word count (alternative): `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20`
 
 Rendered at `r format(Sys.time(), '%d %B, %Y')`
 
-Word count: `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20`
 
 
-# Abstract {-}
-Bli bla blub @Kirchkamp2018Using
+# Citations
 
+For example, with `@Kirchkamp2018Using`, you can cite @Kirchkamp2018Using. Setting brackets allows you to manipulate the appearance:
 
-# h1 Heading 
-## h2 Heading
-### h3 Heading
-### h31 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+- `[@Kirchkamp2018Using]` becomes [@Kirchkamp2018Using] and
+- `@Kirchkamp2018Using[p. 4]` becomes @Kirchkamp2018Using[p. 4]. 
+
+Webpages can be also cited and put in the reference list: 
+
+- `[Google](www.google.de)` becomes a hyperlink [Google](www.google.de),
+- However, when writing academically you should always put sources into the reference list like this: [Google](www.google.de) is a popular online search enginge [see @Google2023Google]. 
 
 
 # Always set your working directory. 
@@ -54,9 +68,38 @@ Bli bla blub @Kirchkamp2018Using
 setwd("/home/sthu/Dropbox/hsf/github/courses/rmd/")
 ```
 
-# Stuff
+# Headers
 
-## Horizontal Rules
+```markdown
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+Alternatively, for H1 and H2, an underline-ish style:
+
+Alt-H1
+======
+
+Alt-H2
+------
+```
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+
+# R Markdown cheatsheet
+
+
+
+## Horizontal rules
 
 ___
 

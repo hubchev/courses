@@ -11,12 +11,13 @@
 }
 
 @Book{Xie2018R,
-  title     = {R Markdown: The Definitive Guide},
-  publisher = {Chapman and Hall/CRC},
-  year      = {2018},
-  author    = {Xie, Yihui and Allaire, Joseph J and Grolemund, Garrett},
-  note      = {available online: \url{https://bookdown.org/yihui/rmarkdown/}},
-  timestamp = {2022-04-30},
+  title        = {R Markdown: The Definitive Guide},
+  publisher    = {Chapman and Hall/CRC},
+  year         = {2018},
+  author       = {Xie, Yihui and Allaire, Joseph J and Grolemund, Garrett},
+  howpublished = {Retrieved January 30, 2023},
+  timestamp    = {2022-04-30},
+  url          = {https://bookdown.org/yihui/rmarkdown/},
 }
 
 @Article{Huber2016Calculate,
@@ -33,11 +34,12 @@
 }
 
 @TechReport{Kirchkamp2018Using,
-  author    = {Oliver Kirchkamp},
-  title     = {Using Graphs and Visualising Data},
-  year      = {2018},
-  note      = {\url{https://www.kirchkamp.de/oekonometrie/pdf/gra-p.pdf} (retrieved on 2022/05/20)},
-  timestamp = {2022-05-23},
+  author       = {Oliver Kirchkamp},
+  title        = {Using Graphs and Visualising Data},
+  year         = {2018},
+  howpublished = {Retrieved January 30, 2023},
+  timestamp    = {2022-05-23},
+  url          = {https://www.kirchkamp.de/oekonometrie/pdf/gra-p.pdf},
 }
 
 @Article{Tsiligiris2018adapted,
@@ -53,13 +55,23 @@
 }
 
 @Book{Xie2020R,
-  title     = {R Markdown Cookbook},
-  publisher = {Chapman and Hall/CRC},
-  year      = {2020},
-  author    = {Xie, Yihui and Dervieux, Christophe and Riederer, Emily},
-  note      = {available online: \url{https://bookdown.org/yihui/rmarkdown-cookbook/}},
-  timestamp = {2022-12-15},
-  url       = {available online: \url{https://bookdown.org/yihui/rmarkdown-cookbook/}},
+  title        = {R Markdown Cookbook},
+  publisher    = {Chapman and Hall/CRC},
+  year         = {2020},
+  author       = {Xie, Yihui and Dervieux, Christophe and Riederer, Emily},
+  howpublished = {Retrieved January 30, 2023},
+  lastvisited  = {2012-03-20},
+  timestamp    = {2022-12-15},
+  url          = {https://bookdown.org/yihui/rmarkdown-cookbook},
+}
+
+@Misc{Eurostat2023Database,
+  author       = {Eurostat},
+  title        = {Database},
+  howpublished = {Accessed January 30, 2023},
+  year         = {2023},
+  timestamp    = {2023-02-09},
+  url          = {www.eurostat.com},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
