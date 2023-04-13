@@ -32,6 +32,7 @@ knit_hooks$set(purl = hook_purl)
 
 # Main goal
 
+
 __Course description__
 *''Students complete this module with a project work. The project work includes a project report (15-20 pages) and a project presentation (20-30 minutes).''*
 
