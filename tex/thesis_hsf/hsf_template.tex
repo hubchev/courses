@@ -1,0 +1,513 @@
+% This is the preamble, don't change anything here unless you know what you are doing
+
+\documentclass[12pt,final,a4paper,oneside]{book}
+\usepackage{graphicx,enumerate,tabularx,booktabs,amsmath,xcolor,setspace,geometry,hyperref,fancyhdr}
+\usepackage[ngerman,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[natbibapa]{apacite}
+\usepackage{times} % you can also set "lmodern" or "arial". If you go for "arial" you should change the font size above to 11pt
+\newcommand{\note}[1]{\footnotesize \begin{center} \textsl{#1}\end{center}} % allows to add notes to figures and tables
+
+% Layout
+\onehalfspacing
+\geometry{a4paper,top=25mm,bottom=25mm,right=45mm,left=25mm}
+\fancypagestyle{plain}{
+	\lhead{}
+	\fancyhead[R]{}
+	\fancyhead[L]{}
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyfoot[R]{\thepage}
+}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\pagestyle{fancy}
+\fancyhead[R]{}
+\fancyhead[L]{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+
+\begin{document}
+\thispagestyle{empty}
+	
+\begin{titlepage}
+	\hfill\includegraphics[width=0.5\textwidth]{hslogo.pdf}\vspace*{1em}
+	\begin{center}
+		Hochschule Fresenius University of Applied Science\\
+		International Business School\\
+		Master of International Business Management\\
+		Cologne Campus, Germany\\\vfill
+		
+		{\LARGE\textbf{Unofficial Template for Writing a Thesis at the HS Fresenius}}\\\vspace*{\fill}
+		\textbf{Master's Thesis}\\
+		in partial fulfillment of the requirements for the degree of Master of Sciences (M.Sc) \vspace*{\fill}
+			
+	\begin{tabular}{rl}
+		Name: & Max Mustermann\\
+		Student ID No.: & 1234567890\\
+		Email: & max.mustermann@hs-fresenius.de\\
+		First Supervisor: & Prof. Dr. John Doe\\
+		Second Supervisor: & Prof. Wang Wu Ph.D.\\
+		Due Date: & April 14, 2023\\
+	\end{tabular}
+	\end{center}
+\end{titlepage}
+\addtocounter{page}{1}
+
+\tableofcontents
+\listoffigures
+\listoftables
+	
+
+\chapter{Introduction}\label{sec:intro}
+
+This is a template. You can use it to write your thesis with \LaTeX. The formatting of it follows the guidelines set in \cite{Hildebrandt2019}. It was written by me, Prof. Dr. Stephan Huber (stephan.huber@hs-fresenius.de).\footnote{Please let me know, if you have suggestions for improvement. If you need help with \LaTeX, feel free to come to my office hour.} You can load the template on Overleaf or work on it on your PC and some \LaTeX\ Editor such as TeXstudio. 
+	
+In the following sections, I show you a bit how to use \LaTeX\ to write text and format it. If you need more information on \LaTeX, just look for an introduction online. 
+
+
+
+	
+\chapter{This Is a Chapter Title}
+\section{This Is a Section}
+\subsection{This Is a Subsection}
+\subsubsection{This Is a Subsubsection}
+\paragraph{This Is a Paragraph}
+	
+Notice, paragraphs are not numbered and are not included in the table of contents. If you like to change that, you can change that in the preamble as follows:
+\begin{verbatim}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\end{verbatim}
+
+\section{Capitalize Your Headings}
+Don't forget to capitalize all (or none of) your headings. As it is difficult to memorize all the rules on how to do that, I recommend this online tool:\\ \url{https://capitalizemytitle.com/}
+
+
+ 
+\chapter{How to Write Text With \LaTeX}
+	
+\section{Formatting Basics}
+	
+You can write text in \textbf{bold} and \textit{italics} and in \texttt{typewriter}. To make a new paragraph just leave an empty line in between the text.
+	
+You can make your text {\large large}, {\Large larger}, {\LARGE very large}, {\huge huge}, and {\Huge huger}. But also {\small small}, {\footnotesize footnotesize}, {\scriptsize scriptsize}, and {\tiny tiny}. 
+
+With a "\%", you can write a comment in your tex-file. Everything after it will not be considered to be a part of your thesis when compiling the tex-file. % That is a comment. 
+By writing \verb|\footnotes{I am a footnote.}|\footnote{I am a footnote.} you make a footnote in \LaTeX.
+
+\begin{center}
+	When you put text in between \verb*|\begin{center}| and \verb*|\end{center}| the text is centered.
+\end{center}
+
+\subsection{Quotation}
+	
+\begin{quotation}
+	When you have a long quotation, you should put it in between \verb*|\begin{quotation}| and \verb*|\end{quotation}|. The text will be formatted perfectly.	
+\end{quotation}
+	
+\subsection{Lists}
+	
+\begin{itemize}
+	\item To make a list of bulletpoints put your points with \verb*|\item| in between \verb*|\begin{itemize}| and \verb*|\end{itemize}|. 
+	\item The result is a numbered list.	
+\end{itemize}
+	
+\begin{enumerate}
+	\item To make a numbered list put your stuff with \verb*|\item| in between \verb*|\begin{enumerate}| and \verb*|\end{enumerate}|. 
+	\item It will look like this list.	
+\end{enumerate}
+	
+\begin{enumerate}[a)]
+	\item To make a list with letters put your stuff with \verb*|\item| in between \verb*|\begin{enumerate}[a)]| and \verb*|\end{enumerate}|. 
+	\item The list will look good.	
+\end{enumerate}
+	
+	
+\subsection{Mathematics}
+	
+\LaTeX{} is great at typesetting mathematics.
+To write a mathematical formula in a line just surround it with dollar signs (\verb*|$|). For example, if you write \verb|$e = mc^2$| you will get:  $e = mc^2$.
+To set formulas in a separate line surround it with \verb*|$$| and \verb*|$$|:
+$$ 
+\left( {\begin{array}{*{20}c}
+		n  \\
+		k  \\
+\end{array}} \right) = \frac{{n!}}{{k!\left( {n - k} \right)!}}
+$$
+or with \verb*|\[| and \verb*|\]|:
+\[
+	\text{var}(\bar x) = \frac{{\sigma ^2 }}{n}.
+\]
+
+To number equations is also possible:
+\begin{equation}\label{eq:greatmath}
+	a + (-a) = 0
+\end{equation}
+To spread an equation over multiple lines is easy:
+\begin{align}
+	A & = \frac{\pi r^2}{2} \\
+	& = \frac{1}{2} \pi r^2
+\end{align}
+
+
+	
+% and this is a comment
+	
+\section{How to Include Figures}
+	
+Use the following template to include your image:
+\begin{verbatim}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.3\textwidth]{filename}
+	\caption{Caption Goes Here}\label{fig:labelname}
+\end{figure}
+\end{verbatim}
+\begin{itemize}
+	\item Replace \texttt{filename} with the name of your image file (including the file extension).
+	\item Replace \texttt{Caption goes here} with a brief description of the figure.
+	\item Replace \texttt{labelname} with a unique label that you can use to reference the figure in your text.
+	\item You can also add notes to the figure by using the \texttt{note} command.
+	\item Use the \texttt{width} options to adjust the size of your image.
+	\item Use the \texttt{[htb]} placement option to suggest where you would like the figure to be placed (e.g., here, top, bottom). However, keep in mind that LaTeX may place the figure elsewhere to improve page layout.
+	\item Label your figures with unique and descriptive names to make them easy to reference in your text.
+	\item Save your image file in the folder where the tex-file is.
+\end{itemize}
+	
+I use, for example this:
+\begin{verbatim}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\textwidth]{hslogo}
+	\caption{The Logo of the HS Fresenius}\label{fig:hslogo}
+	\note{Note: Here you can add some notes to the figure if necessary.}
+\end{figure}
+\end{verbatim}
+	
+Please notice that \texttt{hslogo} refers to the file hs-logo-cyan that is saved in the same directory as this tex-file. The \verb*|\label{fig:hslogo}| allows you to cite the figure like this: In \autoref{fig:hslogo} you see a figure with the logo of the HS Fresenius.
+	
+You may be wondering why your figure doesn't always appear exactly where you want it to in your document. This is because \LaTeX{} places it in a floating environment, which means it tries to find the best possible location for the figure based on various factors like page layout, text flow, and other content.
+	
+While it can be tempting to try and force the figure to appear in a particular location in your text, it's generally best to leave it to \LaTeX{} to decide. This is because manually adjusting the placement of figures can often lead to poor document layout and formatting issues. Instead, focus on providing clear and descriptive captions for your figures, and use appropriate placement options (like the \texttt{[htb]} option) to suggest where you would like the figure to appear.
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\textwidth]{hslogo}
+	\caption{The Logo of the HS Fresenius}\label{fig:hslogo}
+	\note{Note: Here you can add some notes to the figure if necessary.}
+\end{figure}
+	
+\section{How to Make Tables}
+	
+Here is a short guide how to make nice tables: \url{https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf}
+	
+\autoref{tab:example} was produced with the following:
+	
+	\begin{verbatim}
+\begin{table}
+	\centering
+	\begin{tabular}{lr}\toprule
+		A & D \\\midrule
+		B & 1 \\
+		C & 2 \\\bottomrule
+	\end{tabular}
+	\caption{\label{tab:widgets}An example table.}
+	 \note{Note: Here you can add some notes to the table if necessary.}
+\end{table}
+\end{verbatim}
+	
+\begin{table}
+	\caption{An example table}\label{tab:example}
+	\centering
+	\begin{tabular}{lrc}\toprule
+		A & D & E \\\midrule
+		left-aligned & right-aligned & centered \\
+		C & 2 & 4 \\\bottomrule
+	\end{tabular}
+\end{table}
+	
+\section{References}
+	
+\LaTeX{} makes it easy to refer to sections, tables, figures, and pages within your document. Simply set a label with the \verb*|\label{key}| command and refer to it later using \verb*|\ref{key}|.
+	
+For example, in this document, we labeled the chapter titled "Introduction" with \verb*|\label{sec:intro}|. Now we can refer to it in various ways throughout the document. This is particularly useful when working with longer documents or when referencing specific sections or elements within a document. Just remember to make your labels descriptive and easy to remember. Here are some examples:
+	
+\begin{itemize}
+	\item \verb*|\ref{sec:intro}| will become \ref{sec:intro}	
+	\item \verb*|\autoref{sec:intro}| will become \autoref{sec:intro}	
+	\item \verb*|\pageref{sec:intro}| will become \pageref{sec:intro}
+	\item \verb*|\autopageref{sec:intro}| will become \autopageref{sec:intro}
+\end{itemize} 
+	
+I can do the same with tables and figures. 
+	
+\begin{itemize}
+	\item \verb*|\ref{tab:example}| will become \ref{tab:example}	
+	\item \verb*|\autoref{tab:example}| will become \autoref{tab:example}	
+	\item \verb*|\pageref{tab:example}| will become \pageref{tab:example}
+	\item \verb*|\autopageref{tab:example}| will become \autopageref{tab:example}
+\end{itemize} 
+
+You can also refer to equations. For example with \verb|\autoref{eq:greatmath}| you can refer to \autoref{eq:greatmath}. But only because you set the label within the equation:
+\begin{verbatim}
+\begin{equation}\label{eq:greatmath}
+a + (-a) = 0
+\end{equation}
+\end{verbatim}
+	
+\section{Citations}
+	
+Please follow the Handbook of Academic Writing by  \cite{Hildebrandt2019} when it comes to citing work.
+Moreover, discuss with your supervisor which reference style you should use. It is incredibly easy to change the citation style in \LaTeX. You just need to change this line of the template: 
+\begin{verbatim}
+\bibliographystyle{apacite}
+\end{verbatim}
+If your supervisor wants you to use another style just look out for the style that can be used instead. For example, 
+\begin{verbatim}
+\bibliographystyle{aer}
+\end{verbatim}
+would give you the citation style the \textit{American Economic Review} is using. See more examples here:\\ \url{https://www.reed.edu/it/help/LaTeX/bibtexstyles.html}
+
+
+
+
+	
+\subsection{Reference Manager}
+	
+I highly recommend using a reference manager such as JabRef, see: \url{www.jabref.org} The program is free and works across all your devices and with all operating systems. In particular, it can handle BibTex files well. What is a BibTeX file you may ask yourself. Well, you may have seen that this template comes with a file named \texttt{lit.bib}. In this file you should save all the bibliographical stuff that you want to cite. JabRef can help you here. Just install JabRef and open the \texttt{lit.bib} file of this template and you will see what I mean.
+	
+\subsection{APA}
+	
+If your supervisor says, for example, "use APA". Ask him: "Which version of APA?". The predefined bibliography style that is used in this template is \verb*|apacite| which uses the 6th edition of APA.\footnote{The documentation of apacite can be found here: \url{http://mirrors.ctan.org/biblio/bibtex/contrib/apacite/apacite.pdf}}
+
+\subsection{Author (Year) And (Author, Year)}
+You can cite work with \verb|\citet{}| and \verb|\citep{}| as shown below. Of course, you need to refer to the so-called \textit{bibtex-key}. That is a key that allows you to refer to a piece of literature that you put into your bibtex-file. 
+
+{\footnotesize
+\begin{tabular}{ll}
+Command & Output \\
+\verb|\citet{Hildebrandt2019}| & \citet{Hildebrandt2019} \\
+\verb|\citet[chap.~2]{Hildebrandt2019}| & \citet[chap.~2]{Hildebrandt2019} \\
+\verb|\citep{Hildebrandt2019}| & \citep{Hildebrandt2019} \\
+\verb|\citep[chap.~2]{Hildebrandt2019}| & \citep[chap.~2]{Hildebrandt2019} \\
+\verb|\citep[see][]{Hildebrandt2019}| & \citep[see][]{Hildebrandt2019} \\
+\verb|\citep[see][p.2-6]{Hildebrandt2019}| & \citep[see][p.2-6]{Hildebrandt2019} \\
+\verb|\citet*{Hildebrandt2019}| & \citet*{Hildebrandt2019} \\
+\verb|\citep*{Hildebrandt2019}| & \citep*{Hildebrandt2019} \\
+\verb|\citet{Shotton1989,Heifetz2002}| & \citet{Shotton1989,Heifetz2002} \\
+\verb|\citep{Shotton1989,Heifetz2002}| & \citep{Shotton1989,Heifetz2002} \\
+\verb|\citeauthor{Heifetz2002}| & \citeauthor{Heifetz2002} \\
+\verb|\citeyear{Heifetz2002}| & \citeyear{Heifetz2002} \\
+\end{tabular}
+}
+
+
+	
+\subsection{Different Formats}
+	
+Different formats can be cited, see:	
+\citet{unpublished},
+\citet{techreport},
+\citet{phdthesis},
+\citet{misc},
+\citet{mastersthesis},
+\citet{incollection},
+\citet{inbook},
+\citet{conference},
+\citet{booklet},
+\citet{book},
+\citet{article},
+\citet{proceedings},
+\citet{webpage}.
+
+The corresponding bibtex file should contain the following:
+
+{\scriptsize
+\begin{verbatim}
+	@Unpublished{unpublished,
+		author = {Andy Unpublished},
+		title  = {The title of the work},
+		month  = {7},
+		year   = {1993},
+	}
+	
+	@TechReport{techreport,
+		author      = {Peter WorkingPaper},
+		title       = {The title of the work},
+		institution = {The institution that published},
+		year        = {1993},
+		number      = {2},
+		address     = {The address of the publisher},
+		month       = {7},
+	}
+	
+	@PhdThesis{phdthesis,
+		author  = {Andreas PHD},
+		title   = {The title of the work},
+		school  = {The school of the thesis},
+		year    = {2011},
+		address = {The address of the publisher},
+		month   = {7},
+	}
+	
+	@Misc{misc,
+		author       = {Alexandra Misc},
+		title        = {The title of the work},
+		howpublished = {How it was published},
+		month        = {4},
+		year         = {1993},
+	}
+	
+	@MastersThesis{mastersthesis,
+		author  = {Alex Masterthesis},
+		title   = {The title of the work},
+		school  = {The school of the thesis},
+		year    = {2004},
+		address = {The address of the publisher},
+		month   = {10},
+	}
+	
+	@InCollection{incollection,
+		author    = {Eli Editor},
+		title     = {The title of the work},
+		booktitle = {The title of the book},
+		publisher = {The name of the publisher},
+		year      = {2022},
+		editor    = {The editor},
+		volume    = {4},
+		series    = {2},
+		chapter   = {8},
+		pages     = {101-114},
+		address   = {The address of the publisher},
+		edition   = {3},
+		month     = {7},
+	}
+	
+	@InBook{inbook,
+		chapter   = {8},
+		pages     = {201-213},
+		title     = {The title of the work},
+		publisher = {The name of the publisher},
+		year      = {1993},
+		author    = {Suzy Inbook},
+		volume    = {4},
+		series    = {5},
+		address   = {The address of the publisher},
+		edition   = {3},
+		month     = {7},
+	}
+	
+	@Conference{conference,
+		author       = {David Conference},
+		title        = {The title of the work},
+		booktitle    = {The title of the book},
+		year         = {1986},
+		editor       = {The editor},
+		volume       = {4},
+		series       = {5},
+		pages        = {213},
+		address      = {The address of the publisher},
+		month        = {7},
+		organization = {The organization},
+		publisher    = {The publisher},
+	}
+	
+	@Booklet{booklet,
+		title        = {The title of the work},
+		author       = {Betty Booklet},
+		howpublished = {How it was published},
+		address      = {The address of the publisher},
+		month        = {7},
+		year         = {1996},
+	}
+	
+	@Book{book,
+		title     = {The title of the work},
+		publisher = {The name of the publisher},
+		year      = {2023},
+		author    = {Debbie Book},
+		volume    = {4},
+		series    = {10},
+		address   = {The address},
+		edition   = {3},
+		month     = {7},
+		isbn      = {3257442892},
+	}
+	
+	@Article{article,
+		author  = {Sepp Article},
+		title   = {The title of the work},
+		journal = {The name of the journal},
+		year    = {2011},
+		volume  = {4},
+		number  = {2},
+		pages   = {201-213},
+		month   = {7},
+	}
+	
+	@Proceedings{proceedings,
+		title        = {The title of the work},
+		year         = {1993},
+		editor       = {Luc Proceedings},
+		volume       = {4},
+		series       = {5},
+		address      = {The address of the publisher},
+		publisher    = {The name of the publisher},
+		month        = {7},
+		organization = {The organization},
+	}
+	
+	@Misc{webpage,
+		author = {Author Website},
+		title  = {Website Title},
+		year   = {2023},
+		note   = {Accessed on April 14, 2023},
+		url    = {http://website-url.com},
+	}
+\end{verbatim}
+}
+
+\chapter{Conclusion}
+
+Don't forget to conclude.
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{apacite}
+\bibliography{lit}	
+
+\appendix
+
+\chapter{If You Need an Appendix}
+
+\chapter{Another Appendix Chapter}
+\section{Stuff}	
+\section{More Stuff}
+
+\clearpage
+\section*{Affidavit}
+
+I hereby affirm that this submitted paper was authored unaided and solely by
+me. Additionally, no other sources than those in the reference list were used.
+Parts of this paper, including tables and figures, that have been taken either verbatim or analogously from other works have in each case been properly cited
+with regard to their origin and authorship.
+This paper either in parts or in its entirety, be it in the same or similar form, has
+not been submitted to any other examination board and has not been published.\\
+
+\noindent
+I have read the Handbook of Academic Writing by  \cite{Hildebrandt2019} and have endeavored to comply with the guidelines and standards set forth therein.\\
+
+\noindent
+I acknowledge that the university may use plagiarism detection software to check my thesis. I agree to cooperate with any investigation of suspected plagiarism and to provide any additional information or evidence requested by the university.\\\bigskip
+
+\noindent
+Location, Date\\\vspace{5em}
+
+\noindent
+\rule{20em}{1pt}\\
+Name
+
+	
+\end{document}
