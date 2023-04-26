@@ -14,13 +14,12 @@ output:
     toc: yes
     toc_depth: '3'
     number_sections: yes
-citation_package: natbib
-biblio-style: apalike
 header-includes: \usepackage{setspace}\doublespacing
 fontsize: 12pt
 urlcolor: blue
 linkcolor: red
 bibliography: ../lit/references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
 abstract: "In the following I describe the project that needs to be submitted in the course _Data Science for Business_. I give some hints for your efficient progress and success, I introduce the elements and files to be submitted, and I describe how I evaluate the submissions."
 ---
 
@@ -125,7 +124,7 @@ Finally, please use R Markdown to write your report. You can use the .Rmd file i
 
 # Helpful stuff
 
-*R Markdown*
+## R Markdown
 
 To knit to all formats that are mentioned in the header, type that into the console (of course, don't forget to refer to your working directory using setwd()):
 
@@ -134,11 +133,11 @@ setwd("/home/sthu/Dropbox/hsf/github/courses/rmd/")
 rmarkdown::render("23-04_ds-project-desc.Rmd", "all")
 ```
 
-*Git and GitHub*
+## Git and GitHub
 
 As you should submit your work to my Github account, you can learn how to do that by following the instructions of this repository: [https://github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
 
-*Word count*
+## Word count
 
 You can include a word count in various ways. Here are two alternatives:
 
@@ -156,5 +155,6 @@ __Word count:__ `r wordcount`
 
 Word count (alternative): `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20`
 
+## Include figures and tables
 
 # Literature
