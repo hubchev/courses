@@ -13,3 +13,6 @@ knit_hooks$set(purl = hook_purl)
 library("wordcountaddin")
 wordcount <- wordcountaddin::word_count( )
 
+## ----figofme, echo=FALSE, fig.cap="Prof. Dr. Stephan Huber", out.width = '20%', fig.align = 'center'----
+knitr::include_graphics("../pic/huber2.jpeg")
+

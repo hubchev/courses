@@ -1,8 +1,12 @@
 ---
 title: "Description of the project to be submitted"
 author: "Stephan.Huber@hs-fresenius.de"
-date:  "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+    number_sections: yes
   html_document:
     toc: yes
     toc_depth: 2
@@ -10,23 +14,25 @@ output:
     toc_float:
       collapsed: no
       smooth_scroll: no
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
-    number_sections: yes
+    fig_caption: true
 header-includes: \usepackage{setspace}\doublespacing
 fontsize: 12pt
 urlcolor: blue
 linkcolor: red
 bibliography: ../lit/references.bib
-csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
-abstract: "In the following I describe the project that needs to be submitted in the course _Data Science for Business_. I give some hints for your efficient progress and success, I introduce the elements and files to be submitted, and I describe how I evaluate the submissions."
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl"
+abstract: In the following I describe the project that needs to be submitted in the
+  course _Data Science for Business_. I give some hints for your efficient progress
+  and success, I introduce the elements and files to be submitted, and I describe
+  how I evaluate the submissions.
 ---
 
 ```{r setup, include=FALSE}
 library("knitr")
 knit_hooks$set(purl = hook_purl)
 ```
+
+
 
 
 # Main goal
@@ -156,5 +162,15 @@ __Word count:__ `r wordcount`
 Word count (alternative): `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20`
 
 ## Include figures and tables
+
+There are different ways to include figures and tables. I do not recommend doing it with html code as this does not work with pdf output. Below you see two identical pictures of me.
+
+![Prof. Dr. Stephan Huber^[Picture is taken from https://sites.google.com/view/stephanhuber]](../pic/huber2.jpeg){#fig:itsme width=25% }
+
+
+```{r figofme, echo=FALSE, fig.cap="Prof. Dr. Stephan Huber", out.width = '20%', fig.align = 'center'}
+knitr::include_graphics("../pic/huber2.jpeg")
+```
+
 
 # Literature
