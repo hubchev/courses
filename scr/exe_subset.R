@@ -4,73 +4,72 @@
 
 setwd("/home/sthu/Dropbox/hsf/22-ss/dsda/work/")
 rm(list=ls())
-
-# 1
+# 0
 library(tidyverse)
 library(dplyr)
 library(tibble)
 
-# 2
+# 1
 mtcars
 
-# 3
+# 2
 cars <- mtcars
 
-# 4
+# 3
 class(cars)
 
-# 5
+# 4
 dim(cars)
 
 # Alternative
 ncol(cars)
 nrow(cars)
 
-# 6
+# 5
 cars <- rename(cars, MPG = mpg)
 
-# 7
+# 6
 cars <- rename_all(cars, toupper)
 # if you like lower cases:
 # cars <- rename_all(cars, tolower)
 
-# 8
+# 7
 cars <- rownames_to_column(mtcars, var = "car")
 
-# 9
+# 8
 pvars <- select(cars, car, ends_with("p"))
 
-# 10
+# 9
 carsSub <- select(cars, car, wt, qsec, hp)
 
-# 11
+# 10
 dim(carsSub)
 
-# 12
+# 11
 carsSub <- rename_all(carsSub, toupper)
 
-# 13
+# 12
 cars_mpg <- filter(cars, mpg > 20)
 dim(cars_mpg)
 
-#14
+# 13
 cars_whattever <- filter(cars, mpg < 16 & hp > 100)
 
-# 15
+# 14
 carsSub <- filter(cars, cyl == 8) 
 carsSub <- select(carsSub, wt, qsec, hp, car)
 dim(carsSub)
 
-# 16
+# 15
 # Alternative with pipe operator:
 carsSub <- cars %>%
   filter(cyl == 8) %>%
   select(wt, qsec, hp, car)
 
-# 17
+# 16
 carsSub <- arrange(carsSub, wt)
 
-# 18
+# 17
 carsSub <- carsSub %>% 
   mutate(wt2 = wt^2)
 
@@ -80,4 +79,3 @@ carsSub2 <- cars %>%
   select(wt, qsec, hp, car) %>% 
   arrange(carsSub, wt) %>% 
   mutate(wt2 = wt^2)
-

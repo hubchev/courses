@@ -45,7 +45,7 @@ describe(data)
 # library(gtsummary)
 tbl_summary(data)
 
-# check the assignements of countries to continents
+# check the assignments of countries to continents
 data %>% 
   select(country, africa, asia, weurope) %>% 
   view()

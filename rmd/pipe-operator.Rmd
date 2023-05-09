@@ -104,7 +104,7 @@ When used with a data frame, the extract operator can select rows, columns, or b
      x[select criteria for rows , select criteria for columns]
 
 The second and third forms of the extract operator, `[[` and `$` extract a single item from an object.  It is used to refer to an element in a list or a column in a data frame.
-The easiest way to see how the various features of the extract operator work is to get through some  examples.The following snippetsuse the `mtcars` data set from the `datasets` package.
+The easiest way to see how the various features of the extract operator work is to get through some  examples. The following snippetsuse the `mtcars` data set from the `datasets` package.
 
 ```{r}
     library(datasets)
