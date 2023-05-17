@@ -12,8 +12,7 @@
 
 # ==============================================================================
 # 1. 
-# Download and read the most recent version of the lecture notes 
-# (rcourse_book.pdf) from ILIAS.
+# Download and read the most recent version of the lecture notes.
 # ______________________________________________________________________________
 
 

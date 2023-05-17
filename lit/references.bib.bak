@@ -55,23 +55,23 @@
 }
 
 @Book{Xie2020R,
-  title        = {R Markdown Cookbook},
+  title        = {R {MARKDOWN} Cookbook},
   publisher    = {Chapman and Hall/CRC},
   year         = {2020},
   author       = {Xie, Yihui and Dervieux, Christophe and Riederer, Emily},
   howpublished = {Retrieved January 30, 2023},
   lastvisited  = {2012-03-20},
-  timestamp    = {2022-12-15},
+  timestamp    = {2023-05-10},
   url          = {https://bookdown.org/yihui/rmarkdown-cookbook},
 }
 
-@Misc{Eurostat2023Database,
-  author       = {Eurostat},
-  title        = {Database},
+@Misc{Google2023Google,
+  author       = {Google},
+  title        = {Google Search},
   howpublished = {Accessed January 30, 2023},
   year         = {2023},
   timestamp    = {2023-02-09},
-  url          = {www.eurostat.com},
+  url          = {https://www.google.com/},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
