@@ -1,0 +1,29 @@
+
+## Figure caption
+
+![(\#fig:itsme) Prof. Dr. Stephan Huber](fig/huber2.jpeg){ width=25% } 
+
+\@ref(fig:itsme)
+
+
+## Tables caption
+
+Table: `r table_nums(name = "tab:logoper", caption = "Logical operators")`
+
+`r table_nums("tab:logoper", display = "cite")`
+
+
+## exercise & solution
+
+```{exercise, Umax, echo=TRUE} 
+
+Title
+
+
+
+Please find solution to the exercise [in the appendix.](#sol:Umax)
+
+```
+
+     
+### Solution to exercise \@ref(exr:Umax): Title {.unlisted .unnumbered #sol:Umax}

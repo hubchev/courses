@@ -70,13 +70,15 @@ Please put some emphasize on guiding and motivating the reader. For example, the
 To ensure conciseness and clarity, please eliminate all unnecessary repetition. Take the time to read each sentence multiple times and ask yourself if it is concise, clear, and coherent with what was said before and after.
 
 Finally, please use R Markdown to write your report. You can use the .Rmd file included with this document as a template. This file is hosted at [my GitHub page:](https://github.com/hubchev/courses/tree/main/rmd) Information about writing and publishing with R Markdown can be found here:
-  - [R Markdown from R Studio](https://rmarkdown.rstudio.com/lesson-1.html)
-  - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) written by @Xie2018R.
-  - [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) written by @Xie2020R.
+
+- [R Markdown from R Studio](https://rmarkdown.rstudio.com/lesson-1.html)
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) written by @Xie2018R.
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) written by @Xie2020R.
   
-- Insert R code in your R markdown file by typing the chunk delimiters (see the keyboard shortcut *Ctrl+Alt+I* for Windows and Linux based OS and *Cmd+Option+I* for Macintosh OS) or [this lesson](https://rmarkdown.rstudio.com/lesson-3.html)).
+Insert R code in your R markdown file by typing the chunk delimiters (see the keyboard shortcut *Ctrl+Alt+I* for Windows and Linux based OS and *Cmd+Option+I* for Macintosh OS) or [this lesson](https://rmarkdown.rstudio.com/lesson-3.html)).
     
-- The outline of the paper __must__ contain the following building blocks:
+The outline of the paper __must__ contain the following building blocks:
+
   - Title and all common personal details (name, email, ...).
   - Word count (see below on how to give a word count).
   - Abstract of the paper (which highlights the content of the document).
@@ -106,7 +108,7 @@ Finally, please use R Markdown to write your report. You can use the .Rmd file i
   3. the data set (if not too large), 
   4. the presentation as (a) .Rmd and a (b) .html file,
   5. additional files, if needed, so that I can evaluate your work.
-- Please also submit your work to my Github account at [https://github.com/hubchev/dsb-2023]()
+- Please also submit your work to my Github account at [https://github.com/hubchev/ds_summer23](https://github.com/hubchev/ds_summer23)
   
 # Evaluation 
 
@@ -141,7 +143,7 @@ rmarkdown::render("23-04_ds-project-desc.Rmd", "all")
 
 ## Git and GitHub
 
-As you should submit your work to my Github account, you can learn how to do that by following the instructions of this repository: [https://github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
+As you should submit your work to my Github account, you can learn how to do that by following the instructions of this repository: [https://github.com/hubchev/ds_summer23](https://github.com/hubchev/ds_summer23)
 
 ## Word count
 
