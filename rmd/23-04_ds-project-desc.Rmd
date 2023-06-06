@@ -169,9 +169,11 @@ The submission of the project contains...
 
 - [ ] ... the .Rmd file of the
 report. 
-- [ ] ... the .pdf format of the report. 
-- [ ] ... the .html format of the report. 
+- [ ] ... the .pdf file of the report. 
+- [ ] ... the .html file of the report. 
 - [ ] ... all files necessary that are not available online to reproduce the report and the R code therein.
+- [ ] ... the .Rmd file of the presentation.
+- [ ] ... the .html file of the presentation.
 
 [Your Name,] [Date,] [Place] 
 
