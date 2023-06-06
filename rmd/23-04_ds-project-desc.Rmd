@@ -108,6 +108,7 @@ _Your report should contain the following __Affidavit__. Simply, fill it out and
 
 - [x] I checked this box
   
+---
 
 I hereby affirm that this submitted paper was authored unaided and
 solely by me. Additionally, no other sources than those in the reference
@@ -176,6 +177,8 @@ report.
 - [ ] ... the .html file of the presentation.
 
 [Your Name,] [Date,] [Place] 
+
+---
 
 # Submission
 
