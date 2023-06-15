@@ -1,12 +1,12 @@
-## ----setup, include=FALSE----------------------------------------------------------------------
+## ----setup, include=FALSE-----------------------------------------------------
 library("knitr")
 knit_hooks$set(purl = hook_purl)
 
-## ----eval=FALSE--------------------------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  setwd("/home/sthu/Dropbox/hsf/github/courses/rmd/")
 #  rmarkdown::render("23-04_ds-project-desc.Rmd", "all")
 
-## ----echo=TRUE, message=FALSE------------------------------------------------------------------
+## ----echo=TRUE, message=FALSE-------------------------------------------------
 #install.packages("devtools")
 #library("devtools")
 #devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = T)

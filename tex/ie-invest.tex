@@ -114,31 +114,52 @@ That means,
 
 
 \pbn
-\boxb{\textbf{Unpegging the Swiss Franc}
-	Until early 2015 the Swiss central bank (SNB) officially aimed to keep the franc over the cap of 1.20 Franc per Euro to protect exporters and ward off deflationary pressure. Unexpectedly, the SNB unpegged the Franc in 2015 which was under appreciation pressure because many investors wanted to store their assets in the Swiss Franc. With the SNB announcement, the exchange rate felt from 1.20 to 1.00 Franc per Euro ($E^{\frac{F}{\euro}}$), see \autoref{fig:franc_euro}. Almost simultaneously the interest rate also dropped as is shown in \autoref{fig:swiss_i}. This is exactly what the interest parity condition predicts.
+\subsection*{Case study: Unpegging the Swiss Franc}
+
+Until early 2015 the Swiss central bank (SNB) officially aimed to keep the franc over the cap of 1.20 Franc per Euro to protect exporters and ward off deflationary pressure. Unexpectedly, the SNB unpegged the Franc in 2015 which was under appreciation pressure because many investors wanted to store their assets in the Swiss Franc. With the SNB announcement, the exchange rate felt from 1.20 to 1.00 Franc per Euro ($E^{\frac{CHF}{\euro}}$), see \autoref{fig:franc_euro}. Almost simultaneously the interest rate also dropped as is shown in \autoref{fig:swiss_i}. This is exactly what the interest parity condition predicts.
 	
 	
-	\begin{minipage}{0.5\linewidth}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.9\linewidth]{$HOME/Dropbox/hsf/pic/ie/franc_euro_pdf}
-			
-			\caption{The Swiss central bank unpegged the Franc from the Euro}
-			%	\note{}
-			\label{fig:franc_euro}
-		\end{figure}
-	\end{minipage}	
-	\begin{minipage}{0.5\linewidth}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.9\linewidth]{$HOME/Dropbox/hsf/pic/ie/swiss_i_pdf}
-			
-			\caption{The Swiss interest rate}
-			%	\note{}
-			\label{fig:swiss_i}
-		\end{figure}
-	\end{minipage}	
-}
+\begin{minipage}{0.5\linewidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{$HOME/Dropbox/hsf/pic/ie/franc_euro_pdf}
+
+		\caption{The Swiss central bank unpegged the Franc from the Euro}
+		%	\note{}
+	\label{fig:franc_euro}
+	\end{figure}
+\end{minipage}	
+\begin{minipage}{0.5\linewidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{$HOME/Dropbox/hsf/pic/ie/swiss_i_pdf}
+		
+		\caption{The Swiss interest rate}
+		%	\note{}
+		\label{fig:swiss_i}
+	\end{figure}
+\end{minipage}	
+
+To analyze the relationship between changes in exchange rates and interest rates, we need to consider the interest parity assumption and the equation:
+$$
+w= \frac{i-i_{*}}{1+i_{*}}
+$$
+where
+$$w=\frac{E_{t}^{\frac{\euro}{CHF}}}{E_{t-1}^{\frac{\euro}{CHF}}}-1.$$
+In January 2015, the exchange rate $E^{\frac{CHF}{\euro}}$ decreased from 1.20 to 1.00. Alternatively, we can express this change in direct quotation, noting that the exchange rate $E^{\frac{\euro}{CHF}}$ increased from $\frac{1}{1.20}\approx 0.83$ in $t_{t-1}$ to 1.00 in $t_{t-1}$, resulting in
+$$
+w=\frac{E_{t}^{\frac{\euro}{CHF}}}{E_{t-1}^{\frac{\euro}{CHF}}}-1=\frac{1}{0.83}-1=0.20.
+$$
+As $w>0$, the fraction on the left hand side of the interest parity equation, as stated above, must also be positive, i.e., $$\frac{i-i_{*}}{1+i_{*}}>0.$$ This can occur if the foreign interest rate $i_*$ decreases or the home interest rate $i$ increases. In this case, we observe that pattern, although the numbers do not match perfectly, see \autoref{fig:chg_sti}. It is important to note that our theoretical model overlooks many factors that influence both exchange rates and interest rates. Nonetheless, it highlights significant forces that drive market dynamics.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{$HOME/Dropbox/hsf/pic/chg_sti}
+	
+	\caption{Short-term interest rates}
+		\note{Data are taken from the OECD and show the total, \% per annum, Nov 2014 – Apr 2015}
+	\label{fig:chg_sti}
+\end{figure}
 
 \pbn
 \subsection{The Fisher effect}
