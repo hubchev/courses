@@ -5,7 +5,7 @@ x = rnorm(1000)
 plot(density(x))
 
 # Read the documenttion of the "t.test" function
-?t.test
+#?t.test
 
 # On sample t test (H_0: x=0)
 t.test(x)
