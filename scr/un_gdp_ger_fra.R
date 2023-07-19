@@ -58,9 +58,9 @@ df %>%
   group_by(nation) %>% 
   summarise(sd(gdppc),mean(gdppc), cov = sd(gdppc)/mean(gdppc))
 
-pger <- df %>% 
-  filter(nation=="Germany") %>% 
-  ggplot(.,aes(x=year, y=unemployment)) +
+df_ger <- df |>  
+  filter(nation == "Germany") 
+pger <- ggplot(df_ger, aes( x = year, y = unemployment)) +
   geom_line() +
   ggtitle("Germany")
 plot(pger)
