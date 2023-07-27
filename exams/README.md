@@ -2,16 +2,18 @@ Here you will find a collection of my old (mock) exams, organized by course acro
 
 | Acronym | Course |
 | ----------- | ----------- |
-| ie | 	International Economics| 
 | cla | 	Calculus| 
-| instat |	Inferential Statistics| 
 | destat |	Descriptive Statistics| 
+| dsda | Data Science and Data Analytics | 
 | etgc  | Economic Thinking in a Global Context |
-| macro |	Macroeconomics| 
-| micro |	Microeconomics| 
-| R	| The Programming Language R| 
-| mrada |	The Programming Language R| 
+| ie | 	International Economics| 
+| instat |	Inferential Statistics|
 | jdm	| Judgement and Decision Making| 
+| macro |	Macroeconomics | 
+| me | Managerial Economics |
+| micro |	Microeconomics | 
+| qm | Quantitative Methods |
+| R	| The Programming Language R| 
 | oib	| Organization of International Businesses| 	
 
 - Just download the compressed file 'past_exams.zip' and decompress it.
