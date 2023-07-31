@@ -17,5 +17,5 @@ Here you will find a collection of my old (mock) exams, organized by course acro
 | oib	| Organization of International Businesses| 	
 
 - Just download the compressed file 'past_exams.zip' and decompress it.
-- Please note that I do not have any publishable solutions for these exams. 
-- If you find any errors or inaccuracies, please do not hesitate to let me know.
+- I do not have any publishable solutions for these exams. 
+- If you find any errors or inaccuracies, please do not hesitate to let me know. Thank you.
