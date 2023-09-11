@@ -1,0 +1,35 @@
+
+\subsection{Price elasticity and market power}\label{price-elasticity-and-market-power} 
+
+We know that the demand elasticity of price can be measured with:
+\[ \frac{\triangle p/\bar{p}}{\triangle x / \bar{x}}. \]
+Using differential calculus, the point-price elasticity of demand (PPD) can be written as:
+\[ PPD = \frac{\partial p(x)}{\partial x} \cdot \frac{x}{p(x)} = p'(x) \frac{x}{p(x)} = x \frac{p'(x)}{p(x)} \]
+Thus, if \(PPD = 0\), the price does not change if a single firm increases its quantity sold on the market.\footnote{Remember, $PPD$ is defined between 0 to $-\infty$, where 0 stands for perfect inelasticity (demand remains unchanged when prices increase) and $-\infty$ stands for perfect elasticity (demand goes down to zero if prices increase).} That means the firms are price takers, and their quantity sold has no impact on the price. If firms, however, have market power, \(PPD < 0\), which means that if a firm increases the quantity on the market, the price must fall. \textbf{The PPD can hence be interpreted as an indicator of the market power of firms.}
+
+\subsection{Marginal revenue and price elasticity}\label{marginal-revenue-and-price-elasticity} 
+
+Now, re-writing the MR function and substituting in PPD, we get:
+\[ MR = p(x) + xp'(x) = p(x)\left(1 + \underbrace{x\frac{p'(x)}{p(x)}}_{PPD}\right)  = p(x)\left(1 + PPD\right). \]
+This shows that MR is equal to zero when we have a unit demand elasticity, PPD, of \(-1\) and that MR is equal to the price if firms have no market power. Also see figure \ref{fig:ppd}. 
+
+As shown earlier, in the monopoly output, marginal revenue and marginal cost are equal:
+\begin{equation}
+	MC = p(x) \cdot \left(1 + PPD\right)\label{eq:ppd}
+\end{equation}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{fig/ppd.png}
+	\caption{Price setting of a monopolist}\label{fig:ppd}
+	\note{Graph stems from \citet[p.~344]{Anonymous2020Principles}}
+\end{figure}
+
+\subsection{Lerner index}\label{lerner-index}
+
+The Lerner index is a measure of monopoly power, which equals the markup over marginal cost as a percentage of price. To obtain the Lerner index of monopoly power (or market power), let us rearrange \autoref{eq:ppd} as follows:
+
+\[ \frac{MC - p(x)}{p(x)} = PPD = \text{Lerner Index} \]
+
+If a firm does not have market power (\(PPD = 0\)), its price equals the marginal cost. When a firm's market power is high (up to \(|PPD| = \infty\)), the higher the markup that a firm sets. In perfect competition, since \(p\) and MC are equal, the Lerner Index is 0. A pure monopolist, on the other hand, can theoretically charge an infinite markup, which leads us to a Lerner index of 1.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
