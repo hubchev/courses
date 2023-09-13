@@ -1,0 +1,268 @@
+---
+title: "Description of the project to be submitted"
+author: "Stephan.Huber@hs-fresenius.de"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  bookdown::html_document2: 
+    toc: yes
+    toc_depth: 2
+    number_sections: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+    fig_caption: true
+  bookdown::pdf_document2:
+    keep_tex: true
+    toc: yes
+    toc_depth: '3'
+    number_sections: yes
+header-includes: \usepackage{setspace}\doublespacing
+fontsize: 12pt
+urlcolor: blue
+linkcolor: red
+bibliography: /home/sthu/Dropbox/hsf/github/courses/lit/references.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl"
+abstract: In the following I describe the project that needs to be submitted in the
+  course _Data Science for Business_. I give some hints for your efficient progress
+  and success, I introduce the elements and files to be submitted, and I describe
+  how I evaluate the submissions.
+---
+
+```{r setup, include=FALSE}
+library("knitr")
+knit_hooks$set(purl = hook_purl)
+```
+
+
+
+
+# Main goal
+
+
+__Project description__
+
+Students complete this module with a project that contains a written report (10-15 pages per student), a presentation and subsequent discussion, lasting for 10-15 minutes per student. Students show that they are
+capable of describing the status of their research, their approach, findings and results. The
+presentation and subsequent discussion take place during the lecture period; the exact date is
+set by the lecturer.
+Group work is permitted. In case of group work, it must be possible to clearly define and assess each student’s individual performance on the basis of specified sections, page numbers, or other objective criteria.
+
+__Project work__
+
+- Find an academic research paper that shows empirical results that you can replicate using R. 
+- Replicate the results shown in the paper using R or further use the dataset to investigate the topic in greater depth,
+- write a report of your work in progress, and 
+- present your current status of the project in class. 
+
+The overall goal of the project is that you can document your proficiency in working empirically using R. Moreover, you should show your ability to use other tools of data science such as R Markdown, git, GitHub, and BibTex.
+
+
+
+# Details
+
+- Choose your paper wisely. It should be a compelling read for you, and you should have a basic understanding of the research methods applied. Papers can vary greatly in complexity, length, and methodological level.
+- You don't need to replicate the entire paper. Replicating a single table, specific columns, or a single visualization can be sufficient. The goal is to document your progress and to demonstrate your proficiency in using R as a tool to work with data.
+- Reflect on both your successes and failures, as well as any challenges you encountered. For instance, if a line of code took a significant amount of time to write, you can explain the issue to me, but keep it concise. 
+- I highly recommend that you discuss the paper you want to replicate with me and ask for supervision. This will help ensure that you are on the right track and have the support you need. 
+- I kindly request that you come to me rather than waiting for me to come to you. This will help facilitate our communication and ensure that we are both on the same page.
+
+
+## The report
+
+The report should aim to be around 4000-5000 words, or approximately 15 double-spaced pages. Please note that this report is different from an academic paper in that it should focus solely on documenting, discussing, and presenting your project. Its purpose is to introduce your work to me in a way that is similar to reports written in business settings, where you would need to convey what you did, why you did it that way, what obstacles you overcame, what challenges, problems and weaknesses remain, and how you would suggest proceeding with your work if you had more time and resources.
+
+Please refrain from trying to impress me with a fancy layout or any extraneous details. Your primary focus should be on effectively communicating your current state of work to the reader. Feel free to include anything that can help achieve this goal.
+
+Please put some emphasize on guiding and motivating the reader. For example, the introduction is a good place to introduce the scope and content of the report.
+
+To ensure conciseness and clarity, please eliminate all unnecessary repetition. Take the time to read each sentence multiple times and ask yourself if it is concise, clear, and coherent with what was said before and after.
+
+Finally, please use R Markdown to write your report. Please use the .Rmd file that was used to produce this document as a template. This file is hosted at [my GitHub page:](https://github.com/hubchev/courses/tree/main/rmd) Information about writing and publishing with R Markdown can be found here:
+
+- [R Markdown from R Studio](https://rmarkdown.rstudio.com/lesson-1.html)
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) written by @Xie2018R.
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) written by @Xie2020R.
+  
+Insert R code in your R markdown file by typing the chunk delimiters (see the keyboard shortcut *Ctrl+Alt+I* for Windows and Linux based OS and *Cmd+Option+I* for Macintosh OS) or [this lesson](https://rmarkdown.rstudio.com/lesson-3.html)).
+    
+The outline of the paper __must__ contain the following building blocks:
+
+  - Title and all common personal details (name, email, ...).
+  - Word count (see below on how to give a word count).
+  - Abstract of the paper (which highlights the content of the document).
+  - All the R code that is necessary to replicate your results.
+
+## The presentation
+
+- Write the presentation using R Markdown and publish it as .html and/or a .pdf file.
+- Focus on the important things.
+- Try to stay on time.
+- Nobody is perfect and the project is done under time pressure. So don't try to sell yourself too hard. If you see weaknesses in your work, this is a good place to discuss them. 
+- Describe and present your paper and the data set used in it.
+
+## rmd file
+
+- The rmd file should contain the complete workflow including data import, data cleaning, and data analysis.
+- All code but not all the output generated by the code should be shown in the pdf paper. See [Code Chunks and R Markdown](https://rmarkdown.rstudio.com/lesson-3.html) how to set certain options to prevent code and results from appearing in the finished file.
+  
+
+## Affidavit
+
+_Your report should contain the following __Affidavit__. Simply, fill it out and put it at the end of your report. You can check the box like this:_
+
+- [x] I checked this box
+  
+---
+
+I hereby affirm that this submitted paper was authored unaided and
+solely by me. Additionally, no other sources than those in the reference
+list were used. Parts of this paper, including tables and figures, that
+have been taken either verbatim or analogously from other works have in
+each case been properly cited with regard to their origin and
+authorship. This paper either in parts or in its entirety, be it in the
+same or similar form, has not been submitted to any other examination
+board and has not been published.
+
+I have read the Handbook of Academic Writing by @Hildebrandt2019Handbook and
+have endeavored to comply with the guidelines and standards set forth
+therein.
+
+I acknowledge that the university may use plagiarism detection software
+to check my thesis. I agree to cooperate with any investigation of
+suspected plagiarism and to provide any additional information or
+evidence requested by the university.
+
+I assure the project report contains the following:
+
+
+
+-   [ ] The report is written in R Markdown.
+
+The report contains...
+
+- [ ] ... 4000 words (+/- 500).
+
+- [ ] ... a title and personal detail (name, email, matriculation
+    number).
+
+- [ ] ... a word count.
+
+- [ ] ... an abstract.
+
+- [ ] ... a bibliography that was created using BibTeX applying an APA
+    citation style.
+
+- [ ] ... the complete R code that is necessary to replicate your
+    results.
+
+- [ ] ... detailed information on how the data are downloaded and read
+    in to R.
+
+- [ ] ... an introduction where you guide the reader and a conclusion
+    where you summarize your work and discuss what you would work on if
+    you would have more time available.
+
+- [ ] ... all significant resources that were used to write the report
+    and the R code.
+
+- [ ] ... the filled out _Affidavit_.  
+
+- [ ] ...a brief description of the successful contribution using Git and GitHub as explained here: [https://github.com/hubchev/ds_summer23](https://github.com/hubchev/ds_summer23).
+
+
+The submission of the project contains...
+
+- [ ] ... the .Rmd file of the
+report. 
+- [ ] ... the .pdf file of the report. 
+- [ ] ... the .html file of the report. 
+- [ ] ... all files necessary that are not available online to reproduce the report and the R code therein.
+- [ ] ... the .Rmd file of the presentation.
+- [ ] ... the .html file of the presentation.
+
+[Your Name,] [Date,] [Place] 
+
+---
+
+# Submission
+
+- Please consider the deadline for academic papers and written assessments!
+- Upload only __one .zip file__ containing the following:
+  1. the paper as (a) .pdf and a (b) .html file. 
+  2. the .Rmd file
+  3. the data set (if not too large), 
+  4. the presentation as (a) .Rmd and a (b) .html file,
+  5. additional files, if needed, so that I can evaluate your work.
+- Please also submit to my Github account at [https://github.com/hubchev/ds_summer23](https://github.com/hubchev/ds_summer23) and mention that in the report.
+  
+
+# Evaluation 
+
+- *65 % -- Quality and execution of the project*
+    -- After your presentation, we will discuss your work in a personal meeting. The goal of this conversation will be that we agree on certain standards by which I will grade you. By this I mean that we define certain goals that you should achieve with your data set and your question. The goal is to create a transparent set of expectations on my part. So that you have an indication of what you need to accomplish at a minimum in order to pass the course.  
+
+- *35 % -- Quality and execution of the presentation*
+
+- I will try to evaluate your work as objectively as possible. In particular, I will 
+	- check whether your submission is complete, or not,
+  - check whether your empirical work can be reproduced,
+  - check if all formal criteria are met, 
+  - check for plagiarism,
+  - check if the replication of the paper was already done with R by somebody else,
+  - read your work and evaluate your writing skills (clarity, coherence, grammar, etc.),
+  - review and evaluate the difficulty level of your project,
+  - evaluate the technical level of use of the programming language R for your empirical goals,
+  - assess whether your empirical reasoning makes sense and discuss your remaining weaknesses, 
+  - acknowledge your learning process.
+
+
+# Helpful stuff
+
+## R Markdown
+
+To knit to all formats that are mentioned in the header, type that into the console (of course, don't forget to refer to your working directory using setwd()):
+
+```{r eval=FALSE}
+setwd("/home/sthu/Dropbox/hsf/github/courses/rmd/")
+rmarkdown::render("23-09_ds-project-desc.Rmd", "all")
+```
+
+## Git and GitHub
+
+As you should submit your work to my Github account, you can learn how to do that by following the instructions of this repository: [https://github.com/hubchev/ds_summer23](https://github.com/hubchev/ds_summer23)
+
+## Word count
+
+You can include a word count in various ways. Here are two alternatives:
+
+This code installs and loads the required packages and save the words counted:
+```{r echo=TRUE, message=FALSE}
+#install.packages("devtools")
+#library("devtools")
+#devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = T)
+library("wordcountaddin")
+wordcount <- wordcountaddin::word_count()
+
+```
+
+__Word count:__ `r wordcount` 
+
+
+<!-- Word count (alternative): `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20` -->
+
+## Include figures and tables
+
+There are different ways to include figures and tables. However, I do not recommend doing it with html code as this does not work with pdf output. In figure \@ref(fig:figofme) you see a picture of me.
+
+
+```{r figofme, echo=FALSE, fig.cap="Prof. Dr. Stephan Huber", out.width = '20%', fig.align = 'center'}
+knitr::include_graphics("/home/sthu/Dropbox/hsf/pic/huber2.jpeg")
+```
+
+```{r}
+iris2 <- head(iris)
+knitr::kable(iris2, caption = "An example table caption.")
+```
+
+
+# Literature
