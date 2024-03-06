@@ -2,11 +2,12 @@
 # exe_genanddrop.R
 # Stephan Huber; 2023-05-09
 
-setwd("/home/sthu/Dropbox/hsf/test")
+# setwd("/home/sthu/Dropbox/hsf/test")
 rm(list=ls())
 
-require("datasets")
-require("dplyr")
+# load packages
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(datasets, tidyverse)
 
 # a)
 mtcars_new <- mtcars |> 
@@ -25,8 +26,5 @@ mtcars_new <- mtcars_new |>
   select(-d_cyl_6to8)
 mtcars_new  
 
-
-
-
-
-
+# unload packages
+pacman::p_unload(datasets, tidyverse)

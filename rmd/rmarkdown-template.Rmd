@@ -25,6 +25,7 @@ urlcolor: blue
 linkcolor: red
 bibliography: ../lit/references.bib
 abstract: "This document is a template that you can use to produce documents with Rmarkdown. This is my abstract. It is good practice for academic papers to offer an abstract to the reader."
+always_allow_html: true
 ---
 
 # Word count {-}
@@ -249,9 +250,18 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 ## Images
 
-![Minion](../pic/minion.png)
 
-![Minion](../pic/minion.png){ width=15% }
+
+```{r figofme, echo=FALSE, fig.cap="This is a smaller picture of me", out.width = '20%', fig.align = 'center'}
+url_me <- "https://raw.githubusercontent.com/hubchev/courses/main/pic/huber2.jpeg"
+
+download.file(url = url_me, destfile = '../pic/temp.jpeg', mode = 'wb')
+
+knitr::include_graphics('../pic/temp.jpeg')
+
+```
+
+![This is Prof. Dr. Stephan Huber^[Picture is taken from https://sites.google.com/view/stephanhuber]](../pic/huber2.jpeg){#fig:itsme width=25% }
 
 
 

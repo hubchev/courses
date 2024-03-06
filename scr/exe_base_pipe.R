@@ -2,12 +2,12 @@
 # exe_base_pipe.R
 # Stephan Huber; 2023-05-08
 
-setwd("/home/sthu/Dropbox/hsf/test")
+# setwd("/home/sthu/Dropbox/hsf/test")
 rm(list=ls())
 
-library("datasets")
-library("tidyverse")
-library("dplyr")
+# load packages
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(datasets, tidyverse)
 
 # a)
 # Using the pipe |> 
@@ -42,3 +42,6 @@ df5 <- transform(mtcars, cyl_4_or_6 = cyl %in% c(4,6) & wt < 3.5)
 # Check if the resulting dataframe is identical to the expected output
 identical(df3, df4)
 identical(df3, df5)
+
+# unload packages
+pacman::p_unload(datasets, tidyverse)

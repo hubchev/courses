@@ -1,0 +1,313 @@
+---
+title: "Cheatsheet for the exam"
+author: "Stephan.Huber@hs-fresenius.de"
+date: "2024-01-12"
+
+abstract: |
+  In this report, I summarize operators and popular functions of R. Moreover, I present the output of all exercises. That should help you to answer exam questions.
+  
+format:
+  html:
+    embed-resources: true
+    self-contained-math: true
+---
+
+# Packages to load for the exam
+
+```{r echo=TRUE, message=FALSE}
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(jtools, janitor, haven, lubridate, forcats, stringr, dplyr, purrr, 
+               readr, tidyr, tibble, ggplot2, tidyverse, kableExtra, pacman)
+
+```
+
+```{r include=FALSE}
+pacman::p_unload(all)
+```
+
+# Operators
+
+#### Assignment:
+
+-   `<-` (assignment operator)
+
+#### Arithmetic:
+
+-   `+` (addition)
+-   `-` (subtraction)
+-   `*` (multiplication)
+-   `/` (division)
+-   `^` or `**` (exponentiation)
+-   `%%` (modulo, remainder)
+-   `%/%` (integer division)
+
+#### Relational:
+
+-   `<` (less than)
+-   `>` (greater than)
+-   `<=` (less than or equal to)
+-   `>=` (greater than or equal to)
+-   `==` (equal to)
+-   `!=` or `<>` (not equal to)
+
+#### Logical:
+
+-   `&` (element-wise AND)
+-   `|` (element-wise OR)
+-   `!` (logical NOT)
+-   `&&` (scalar AND)
+-   `||` (scalar OR)
+
+#### Others:
+
+-   `%*%` (matrix multiplication)
+-   `%in%` (checks if an element is in a vector)
+-   `%>%` or `|>` (pipe operator from the magrittr package)
+-   `[]`: Extract content from vectors, lists, or data frames.
+-   `[[ ]]` and `$`: Extract a single item from an object.
+
+
+# Popular functions
+
+#### Help 
+
+- ?: Search R documentation for a specific term.
+- ?? Search R help files for a word or phrase.
+- RSiteSearch: Search search.r-project.org
+- findFn: Search search.r-project.org for functions (Hint: requires the "sos" library loaded!)
+- help.start: Access to html manuals and documentations implemented in R 
+- apropos: Returns a character vector giving the names of objects in the search list matching (as a regular expression) what.
+- find: Returns where objects of a given name can be found.
+- vignette: View a specified package vignette, i.e., supporting material such as introductions. 
+
+
+#### Package management
+
+-   `install.packages`: Installs packages from CRAN.
+-   `pacman::p_load`: Installs and loads specified R packages.
+-   `library`: (Install and) loads specified R packages.
+
+#### General
+
+-   `setwd`: Sets the working directory to the specified path.
+-   `rm`: Removes objects (variables) from the workspace.
+-   `sessionInfo`: Information about the R environment.
+-   `source`: Executes R code from a file.
+
+#### Tools
+
+-   `else`: Execute a block of code if the preceding condition is false.
+-   `else if`: Specify a new condition to test if the first condition is false.
+-   `if`: Execute a block of code if a specified condition is true.
+-   `ifelse`: Check a condition for every element of a vector.
+
+#### Data import
+
+-   `c`: Combine values into a vector or list.
+-   `read.csv`: Reads a CSV file into a data frame.
+-   `read_dta`: Read Stata dataset.
+-   `load`: Loads an RData file.
+
+#### Inspect data
+
+-   `dim`: Returns the dimensions (number of rows and columns) of a data frame.
+-   `glimpse`: Provide a concise summary.
+-   `head`: Returns the first elements.
+-   `length`: Returns the number of elements in an object.
+-   `print`: Prints the specified object.
+-   `names`: Returns the variable names in a data frame.
+-   `n() or nrow()`: Counts the number of observations in a data frame or group of observations.
+-   `ncol`: Returns the number of columns in a data frame.
+-   `summary`: Summary statistics.
+-   `table`: Create a table of counts or cross-tabulation.
+-   `tail`: Returns the first n elements.
+-   `unique`: Extracts unique elements from a vector.
+-   `view`: Opens a viewer for data frames.
+
+#### Graphics
+
+-   `abline`: Adds lines to a plot.
+-   `aes`: Aesthetic mapping in ggplot.
+-   `facet_wrap`: Creates a grid of facetted plots.
+-   `geom_hline`: Adds horizontal lines to a ggplot.
+-   `geom_line`: Adds lines to a ggplot.
+-   `geom_point`: Adds points to a ggplot.
+-   `geom_smooth`: Adds a smoothed line to a ggplot.
+-   `geom_text`: Adds text to a ggplot.
+-   `geom_vline`: Adds vertical lines to a ggplot.
+-   `ggsave`: Saves a ggplot to a file.
+-   `labs`: Adds or modifies plot labels.
+-   `plot`: Creates a scatter plot.
+-   `scale_y_reverse`: Reverses the y-axis in a ggplot.
+-   `stat_smooth`: Adds a smoothed line to a ggplot.
+-   `theme_classic`: Applies a classic theme to a ggplot.
+-   `theme_minimal`: Applies a minimal theme to a ggplot.
+
+#### Data management
+
+-   `arrange`: Reorder the rows of a data frame.
+-   `clean_names`: Cleans names of an object (usually a data.frame).
+-   `complete`: Completes a data frame with all combinations of specified columns.
+-   `data.frame`: Creates a data frame.
+-   `distinct`: Removes duplicate rows from a data frame.
+-   `identical`: Check if two objects are identical.
+-   `is(na)`: Identify and flag a missing or undefined value (NA).
+-   `is_tibble`: Check if an object is a tibble.
+-   `rm`: Removes objects (variables) from the workspace.
+-   `relocate`: Reorders columns in a dataframe.
+-   `round`: Rounds a numeric vector to the nearest integer.
+-   `rownames`: Get or set the row names of a matrix-like object.
+-   `tibble`: Creates a tibble, a modern and tidy data frame.
+
+#### `dplyr` functions
+
+-   `arrange`: Reorder the rows of a data frame.
+-   `complete`: Completes a data frame with all combinations of specified columns.
+-   `ends_with`: matches to a specified suffix
+-   `filter`: Pick observations by their values.
+-   `first`: Returns the first element.
+-   `group_by`: Group data by one or more variables.
+-   `last`: Returns the last element.
+-   `mutate`: Add new variables or modify existing variables in a data frame.
+-   `nth`: Returns the nth element.
+-   `n_distinct`: Returns the number of distinct elements.
+-   `rename`: Rename variables in a data frame.
+-   `rename_all`: Renames all variables in a data frame.
+-   `row_number`: Adds a column with row numbers.
+-   `rowwise`: Perform operations row by row.
+-   `select`: Pick variables by their names.
+-   `select_all`: Selects all columns in a data frame.
+-   `slice_head`: Selects the top N rows from each group.
+-   `starts_with`: Select variables whose names start with a certain string.
+-   `summarise`: Reduce data to a single summary value.
+
+#### Data analysis
+
+-   `aggregate`: Apply a function to the data by levels of one or more factors.
+-   `anti_join`: Return rows from the first data frame that do not have a match in the second data frame.
+-   `cor`: Computes correlation coefficients.
+-   `cov`: Computes covariance.
+-   `diff`: Calculates differences between consecutive elements.
+-   `get_dupes`: Identify duplicate rows in a data frame (from the janitor package).
+-   `paste0`: Concatenate vectors after converting to character.
+-   `predict`: Predict method for model fits.
+-   `prop.table`: Create a table of proportions.
+
+#### Statistical functions
+
+-   `cor()`: Computes correlation coefficients.
+-   `cov()`: Computes the covariance.
+-   `exp()`: Exponential function.
+-   `IQR()`: Computes the interquartile range.
+-   `kurtosis()`: Computes the kurtosis.
+-   `log()`: Natural logarithm.
+-   `mad()`: Computes the mean absolute deviation.
+-   `max()`: Returns the maximum value.
+-   `mean()`: Calculates the mean.
+-   `median()`: Computes the median.
+-   `min()`: Returns the minimum value.
+-   `quantile()`: Computes sample quantiles.
+-   `sd()`: Calculates the standard deviation.
+-   `skewness()`: Calculates the skewness.
+-   `var()`: Calculates the variance.
+
+# Links to solutions
+
+1.  [exe_duplicates.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_duplicates.R)
+2.  [exe_genanddrop.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_genanddrop.R)
+3.  [exe_base_pipe.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_base_pipe.R)
+4.  [exe_subset.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_subset.R)
+5.  [data_transformation.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/data_transformation.R)
+6.  [exe_poser.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_poser.R)
+7.  [datasaurus_solution.html](https://raw.githubusercontent.com/hubchev/courses/main/scr/datasauRus.R)
+8.  [convergence.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/convergence.R)
+9.  [un_gdp_ger_fra.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/un_gdp_ger_fra.R)
+10. [hortacsu_figure_3.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/hortacsu_figure_3.R) 
+10. [regress_lecture.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/regress_lecture.R)
+11. [exe_calories.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_calories.R)
+12. [bundesliga.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/bundesliga.R)
+13. [exe_okun_solution.R](https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_okun_solution.R)
+
+# Script: exe_duplicates.R (not in the lecture notes)
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_duplicates.R"}
+```
+
+# Script: exe_genanddrop.R
+
+```{r, file = "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_genanddrop.R"}
+```
+
+# Script: exe_base_pipe.R
+
+```{r, file = "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_base_pipe.R"}
+```
+
+# Script: exe_subset.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_subset.R"}
+```
+
+# Script: exe_poser.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_poser.R"}
+```
+
+# Script: datasauRus.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/datasauRus.R"}
+```
+
+# Script: convergence.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/convergence.R"}
+```
+
+# Script: un_gdp_ger_fra.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/un_gdp_ger_fra.R"}
+```
+
+# Script: hortacsu_figure_3.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/hortacsu_figure_3.R"}
+```
+
+# Script: regress_lecture.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/regress_lecture.R"}
+```
+
+# Script: exe_calories.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_calories.R"}
+```
+
+# Script: bundesliga.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/bundesliga.R"}
+```
+
+# Script: exe_okun_solution.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_okun_solution.R"}
+```
+
+# Script: exe_zipf_solution.R
+
+```{r, file =   "https://raw.githubusercontent.com/hubchev/courses/main/scr/exe_zipf_solution.R"}
+```
+
+
+```{r, echo=FALSE, eval=TRUE}
+# Define source and destination paths
+source_files <- c("exam_functions.qmd", "exam_functions.html")
+destination_folder <- "/home/sthu/Dropbox/hsf/github/courses/rmd/"
+
+# Copy files to the destination folder
+file.copy(source_files, destination_folder, overwrite = TRUE)
+
+# Print a message indicating the successful copy
+cat("Files copied to", destination_folder, "\n")
+
+```
