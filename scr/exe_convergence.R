@@ -1,7 +1,8 @@
 # Convergence
 
 # set working directory
-setwd("/home/sthu/Dropbox/hsf/github/courses/")
+# setwd("/home/sthu/Dropbox/hsf/github/courses/")
+
 
 # clear the environment
 rm(list = ls())
@@ -13,16 +14,19 @@ rm(list = ls())
   # 2. if not installed the package should be installed and loaded
   # 3. if installed the package should be loaded
 # I like to do it with a function that is part of pacman package:
-if (!require("pacman")) {install.packages("pacman")}
+
+
+# load packages
+if (!require(pacman)) install.packages("pacman")
 pacman::p_load(haven, tidyverse, vtable, gtsummary, pastecs, Hmisc, 
-               sjlabelled, tis, ggpubr, sjPlot)
+               sjlabelled, tis, ggpubr, sjPlot, psych)
 
 # an alternative is to install and load it like that
 # install.packages(c("haven", "tidyverse", "vtable", "gtsummary", "pastecs"))
 # library(c("haven", "tidyverse", "vtable", "gtsummary", "pastecs"))
 
 # import data
-data <- read_dta("dta/convergence.dta")
+data <- read_dta("https://github.com/hubchev/courses/raw/main/dta/convergence.dta")
 
 # inspect data
 names(data)
@@ -34,7 +38,7 @@ summary(data)
 view(data)
 
 #library(vtable)
-vtable(data, missing=TRUE)
+# vtable(data, missing=TRUE)
 
 # library(pastecs)
 stat.desc(data)
@@ -176,5 +180,8 @@ data %>%
     y90 = mean(gdppc90, na.rm = TRUE),
     y95 = mean(gdppc95, na.rm = TRUE)
   )
+
+pacman::p_unload(haven, tidyverse, vtable, gtsummary, pastecs, Hmisc, 
+               sjlabelled, tis, ggpubr, sjPlot)
 
     
