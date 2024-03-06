@@ -2,12 +2,15 @@
 # exe_subset.R
 # Stephan Huber; 2022-06-07
 
-setwd("/home/sthu/Dropbox/hsf/22-ss/dsda/work/")
+# setwd("/home/sthu/Dropbox/hsf/22-ss/dsda/work/")
 rm(list=ls())
+
+
+
 # 0
-library(tidyverse)
-library(dplyr)
-library(tibble)
+# load packages
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, dplyr, tibble)
 
 # 1
 mtcars
@@ -79,3 +82,7 @@ carsSub2 <- cars %>%
   select(wt, qsec, hp, car) %>% 
   arrange(carsSub, wt) %>% 
   mutate(wt2 = wt^2)
+
+
+# unload packages
+pacman::p_unload(tidyverse, dplyr, tibble)

@@ -1,19 +1,24 @@
 # Load the required libraries
-library(tidyverse)
-library(haven)
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, haven, ggrepel)
+
+# setwd("~/Dropbox/hsf/23-ws/R_begin")
 
 rm(list = ls())
 
 # Read the Stata dataset
 auto <- read_dta("http://www.stata-press.com/data/r8/auto.dta")
 
+
 # Create a scatter plot of price vs. weight
-scatter_plot <- ggplot(auto, aes(x = weight, y = price)) +
-  geom_point(aes(label = make), size = 3) +
-  labs(title = "Scatter Plot of Price vs. Weight of Cars",
-       x = "Weight",
-       y = "Price") +
+scatter_plot <- ggplot(auto, aes(x = mpg, y = price, label = make)) +
+  geom_point() +  
+  geom_text_repel() + 
+  xlab("Miles per Gallon") +
+  ylab("Price in Dollar") +
   theme_minimal()
+
+scatter_plot
 
 # Save the scatter plot in different formats
 ggsave("scatter_plot.png", plot = scatter_plot, device = "png")
@@ -26,6 +31,9 @@ n_auto <- auto %>%
 # Create 'larger6000' dummy variable
 n_auto <- n_auto %>%
   mutate(larger6000 = ifelse(price > 6000, 1, 0))
+
+n_auto <- n_auto |> 
+  filter(larger6000 == 0)
 
 # Normalize variables
 
@@ -69,7 +77,7 @@ n_auto <- n_auto |>
 n_auto |> 
   arrange(desc(poser)) |> 
   select(make, poser) |> 
-  head(, 5)  
+  head(5)  
 
 df_poser <- n_auto |> 
   filter(larger6000 == 0) |> 
@@ -78,7 +86,11 @@ df_poser <- n_auto |>
   na.omit()
 
 # Five top poser cars
-head(df_poser, 5)
+head(df_poser, 15)
 
 # Five top non-poser cars
 tail(df_poser, 5)
+
+
+# unload packages
+pacman::p_unload(tidyverse, haven, ggrepel)
