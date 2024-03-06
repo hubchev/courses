@@ -2,13 +2,14 @@
 #Stephan Huber, 000, 2020-May-30
 
 # 2
-setwd("/home/sthu/Dropbox/hsf/22-ss/dsb_bac/work/")
+# setwd("/home/sthu/Dropbox/hsf/22-ss/dsb_bac/work/")
 
 # 3
 rm(list=ls())
 
 # 4
-library(tidyverse)
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, haven)
 
 # 5
 # cross-section
@@ -86,5 +87,6 @@ summary(reg_base)
 # discussed in class
 
 
-
+# unload packages
+pacman::p_unload(tidyverse, haven)
 
