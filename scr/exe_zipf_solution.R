@@ -1,7 +1,7 @@
 
 # load packages
 if (!require(pacman)) install.packages("pacman")
-pacman::p_unload(all)
+suppressMessages(pacman::p_unload(all))
 setwd("~/Dropbox/hsf/exams/24-01/Rmd")
 
 rm(list=ls())
