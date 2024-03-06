@@ -82,4 +82,5 @@ anti_join(df, df_uni)
 anti_join(df, df_uni_b)
 
 # unload packages
-pacman::p_unload(tidyverse, janitor, babynames, stringr)
+# pacman::p_unload(tidyverse, janitor, babynames, stringr)
+pacman::p_unload(all)
