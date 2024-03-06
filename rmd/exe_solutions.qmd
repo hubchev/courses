@@ -141,33 +141,33 @@ cat("Files copied to", destination_folder, "\n")
 
 
 
-```{r}
-# Define the directory where files and directories are to be deleted
-target_directory <- "/home/sthu/Dropbox/hsf/courses/ds/solutions/"
+<!-- ```{r} -->
+<!-- # Define the directory where files and directories are to be deleted -->
+<!-- target_directory <- "/home/sthu/Dropbox/hsf/courses/ds/solutions/" -->
 
-# Get all files and directories in the target directory
-all_files_and_dirs <- list.files(path = target_directory, full.names = TRUE)
+<!-- # Get all files and directories in the target directory -->
+<!-- all_files_and_dirs <- list.files(path = target_directory, full.names = TRUE) -->
 
-# Define the files to keep
-files_to_keep <- c("exe_solutions.qmd", "exe_solutions.pdf", "exe_solutions.html")
-files_to_keep <- sapply(files_to_keep, function(x) file.path(target_directory, x))
+<!-- # Define the files to keep -->
+<!-- files_to_keep <- c("exe_solutions.qmd", "exe_solutions.pdf", "exe_solutions.html") -->
+<!-- files_to_keep <- sapply(files_to_keep, function(x) file.path(target_directory, x)) -->
 
-# Exclude the files to keep from the list of all files and directories
-files_and_dirs_to_delete <- setdiff(all_files_and_dirs, files_to_keep)
+<!-- # Exclude the files to keep from the list of all files and directories -->
+<!-- files_and_dirs_to_delete <- setdiff(all_files_and_dirs, files_to_keep) -->
 
-# Delete files and directories except the ones to keep
-for (item in files_and_dirs_to_delete) {
-  if (file.exists(item)) {
-    if (file.info(item)$isdir) {
-      # If item is a directory, use unlink() with recursive = TRUE to delete
-      unlink(item, recursive = TRUE)
-    } else {
-      # If item is a file, use file.remove() to delete
-      file.remove(item)
-    }
-  }
-}
-```
+<!-- # Delete files and directories except the ones to keep -->
+<!-- for (item in files_and_dirs_to_delete) { -->
+<!--   if (file.exists(item)) { -->
+<!--     if (file.info(item)$isdir) { -->
+<!--       # If item is a directory, use unlink() with recursive = TRUE to delete -->
+<!--       unlink(item, recursive = TRUE) -->
+<!--     } else { -->
+<!--       # If item is a file, use file.remove() to delete -->
+<!--       file.remove(item) -->
+<!--     } -->
+<!--   } -->
+<!-- } -->
+<!-- ``` -->
 
 
 
