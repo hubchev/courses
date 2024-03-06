@@ -1,5 +1,9 @@
 # Solution to excercise "Import data":
 
+# load packages
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse)
+
 state <- c("BY", "NRW", "BW")
 deaths <- c(4.92, 5.32, 3.69)
 cases <- c(24111, 25466, 16145)
