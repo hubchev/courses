@@ -1,0 +1,297 @@
+---
+title: "Unemployment and GDP in Germany and France"
+author: "Stephan.Huber@hs-fresenius.de"
+date: 'Date: 02.11.2022; Study Programme: THEM_bac; Semester: 4'
+output:
+  html_document:
+    toc: no
+    toc_depth: 2
+    number_sections: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+  pdf_document:
+    toc: no
+    toc_depth: '3'
+    number_sections: yes
+citation_package: natbib
+biblio-style: apalike
+header-includes: \usepackage{setspace}\doublespacing
+fontsize: 12pt
+urlcolor: blue
+linkcolor: red
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+ __Please answer all (!) questions in an R script. Normal text should be written 
+ as comments, using the '#' to comment out text. Make sure the script runs 
+ without errors before submitting it. Each task (starting with 1) is worth five
+ points. You have a total of 120 minutes of editing time. Please do not forget 
+ to number your answers.__
+ 
+ __When you are done with your work, save the R script, export the script to pdf 
+ format and upload the pdf file.__
+
+---
+
+ _Suppose you aim to empirically examine unemployment and GDP for Germany and France.
+ The data set that we use in the following is 'forest.Rdata' and should already 
+ been known to you from the lecture._ 
+
+
+
+(0)    
+ Write down your name, matriculation number, and date.
+
+(1)    
+ Set your working directory. 
+
+```{r echo=FALSE}
+setwd("/home/sthu/Dropbox/hsf/exams/22-11/scr/")
+```
+
+(2)    
+ Clear your global environment.
+ 
+```{r echo=FALSE}
+rm(list=ls())
+```
+
+(3)    
+ Install and load the following packages: 'tidyverse', 'sjPlot', and 'ggpubr'
+ 
+```{r echo=F, results='hide', warning=FALSE,  message=FALSE}
+# install.packages("tidyverse")
+# install.packages("ggpubr")
+# install.packages("sjPlot")
+library("tidyverse")
+library("ggpubr")
+library("sjPlot")
+```
+
+(4)    
+ Download and load the data, respectively, with the following code: 
+ 
+```{r}
+load(url("https://github.com/hubchev/courses/raw/main/dta/forest.Rdata"))
+```
+ If that is not working, you can also download the data from ILIAS, save it in 
+ your working directory and load it from there with:
+```
+load("forest.Rdata")
+```
+
+(5)    
+ Show the __first eight__ observations of the dataset 'df'.
+ 
+```{r include=FALSE}
+head(df,8)
+```
+
+(6)    
+ Show the __last observation__ of the dataset 'df'.
+ 
+```{r include=FALSE}
+tail(df,1)
+```
+
+(7)    
+ Which type of data do we have here (Panel, cross-section,time series, ...)?
+ Name the variable(s) that are necessary to identify the observations in the dataset.
+ 
+```{r include=FALSE}
+ # panel data set
+ # date and country.x
+```
+
+(8)    
+Explain what the __assignment operator__ in R is and what it is good for.
+
+(9)
+Write down the R code to store the number of observations and the number of variables 
+that are in the dataset 'df'. Name the object in which you store these numbers 'observations_df'.
+
+```{r include=FALSE}
+observations_df <- dim(df)
+```
+
+(10)
+In the dataset 'df', rename the variable 'country.x' to 'nation' and the
+ variable 'date' to 'year'. 
+```{r include=FALSE}
+df <- rename(df, nation=country.x)
+df <- rename(df, year=date)
+```
+
+(11)    
+Explain what the __pipe operator__ in R is and what it is good for.
+
+(12)
+ For the upcoming analysis you are only interested the following __variables__ 
+ that are part of the dataframe 'df': nation, year, gdp, pop, gdppc, 
+ and unemployment.  Drop all other variables from the dataframe 'df'.
+
+```{r include=FALSE}
+df <- df %>% 
+  select(nation, year, gdp, pop, gdppc, unemployment)
+```
+
+(13)
+ Create a variable that indicates the GDP per capita ('gdp' divided by 'pop'). 
+ Name the variable 'gdp_pc'. (Hint: If you fail here, use the variable 'gdppc' which is 
+ already in the dataset as a replacement for 'gdp_pc' in the following tasks.)
+```{r include=FALSE}
+df <- df %>% 
+  mutate(gdp_pc = gdp/pop)
+```
+
+(14)
+ For the upcoming analysis you are only interested the following __countries__
+ that are part of the dataframe 'df': Germany and France. Drop all other 
+ countries from the dataframe 'df'.
+ 
+```{r include=FALSE}
+df <- df %>% filter(nation=="Germany" | nation=="France")
+```
+
+(15)    
+ Create a table showing the __average__ unemployment rate and GDP per capita for Germany 
+ and France in the given years. Use the pipe operator. (Hint: See below for how your results should 
+ look like.)
+ 
+```{r echo=FALSE}
+df  %>%
+  group_by(nation) %>%
+  summarise(mean(unemployment), mean(gdppc))
+```
+
+(16)    
+ Create a table showing the unemployment rate and GDP per capita for Germany 
+ and France in the __year 2020__. Use the pipe operator. (Hint: See below for how your results should 
+ look like.) 
+ 
+```{r echo=FALSE}
+df  %>%
+  filter(year==2020) %>% 
+  group_by(nation) %>%
+  summarise(mean(unemployment), mean(gdppc))
+```
+
+(17)
+ Create a table showing the __highest__ unemployment rate and the __highest__ 
+ GDP per capita for Germany and France during the given period.
+ Use the pipe operator. (Hint: See below for how your results should look like.)
+
+```{r echo=FALSE}
+df  %>%
+  group_by(nation) %>%
+  summarise(max(unemployment), max(gdppc))
+```
+
+(18)    
+Calculate the standard deviation of the unemployment rate and GDP per capita for Germany 
+ and France in the given years. (Hint: See below for how your result should 
+ look like.)
+ 
+```{r echo=FALSE}
+df %>% 
+  group_by(nation) %>%
+  summarise(sd(gdppc), sd(unemployment))
+```
+
+(19)
+In statistics, the coefficient of variation (COV) is a standardized measure of 
+dispersion. It is defined as the ratio of the standard deviation ($\sigma$) to the mean ($\mu$):
+$COV={\frac {\sigma }{\mu }}$.
+Write down the R code to calculate the coefficient of variation (COV) for the 
+__unemployment rate__ in Germany and France. (Hint: See below for what your result should  should look like.)
+
+```{r echo=FALSE}
+df %>% 
+  group_by(nation) %>% 
+  summarise(sd(unemployment), mean(unemployment), cov = sd(unemployment)/mean(unemployment))
+```
+
+(20)
+Write down the R code to calculate the coefficient of variation (COV) for the __GDP per capita__ 
+in Germany and France. (Hint: See below for what your result should  should look like.)
+
+ look like.)
+
+```{r echo=FALSE}
+df %>% 
+  group_by(nation) %>% 
+  summarise(sd(gdppc),mean(gdppc), cov = sd(gdppc)/mean(gdppc))
+```
+ 
+(21)
+Create a chart (bar chart, line chart, or scatter plot) that shows the 
+unemployment rate of __Germany__ over the available years. Label the chart 
+'Germany' with 'ggtitle("Germany")'. Please note that you may choose any type of graphical representation. 
+(Hint: Below you can see one of many possible examples of what your result may look like).
+
+```{r echo=FALSE}
+pger <- df %>% 
+  filter(nation=="Germany") %>% 
+  ggplot(.,aes(x=year, y=unemployment)) +
+  geom_line() +
+  ggtitle("Germany")
+plot(pger)
+```
+
+
+
+(22) and 23. _(This task is worth 10 points)_
+The following chart shows the simultaneous development of the unemployment rate and GDP per capita over time for __France__.
+
+
+```{r echo=F}
+labels <- 1992:2020
+dfra <- df %>% filter(nation == "France")
+plot(dfra$gdppc, dfra$unemployment, type = "b", xlab = "GDP per capita", ylab = "Unemployment rate"); text(dfra$gdppc + 0.1, dfra$unemployment + 0.1, labels); title("France")
+```
+
+
+
+
+Suppose you want to visualize the simultaneous evolution of the unemployment rate and GDP per capita over time for Germany as well.  
+Suppose further that you have found the following lines of code that create the kind of chart you are looking for. 
+
+```{r echo=T}
+# Data
+x <- c(1, 2, 3, 4, 5, 4, 7, 8, 9)
+y <- c(12, 16, 14, 18, 16, 13, 15, 20, 22)
+labels <- 1970:1978
+
+# Connected scatter plot with text
+plot(x, y, type = "b", xlab = "Var 1", ylab = "Var 2"); text(x + 0.4, y + 0.1, labels) 
+```
+
+Use these lines of code and customize them to create the co-movement visualization for __Germany__ using the available 'df' data. 
+The result should look something like this:
+
+```{r echo=FALSE}
+dfger <- df %>% filter(nation == "Germany")
+labels <- 1992:2020
+plot(dfger$gdppc, dfger$unemployment, type = "b", 
+     xlab = "Var 1", ylab = "Var 2"); text(dfger$gdppc + 0.7, dfger$unemployment + 0.4, labels); title("Germany")
+```
+
+(24)
+Interpret the two graphs above, which show the simultaneous evolution of the unemployment rate and GDP per capita over time for Germany and France. What are your expectations regarding the correlation between the unemployment rate and GDP per capita variables? Can you see this expectation in the figures? Discuss.
+
+
+
+```{r include=FALSE}
+# rmarkdown::render("22-11_dsda_exam.Rmd", "all")
+```
+
+```{r include=FALSE}
+# knitr::purl(input = "22-11_dsda_exam.Rmd", output = "22-11_dsda_solution.R",documentation = 0)
+```
+
