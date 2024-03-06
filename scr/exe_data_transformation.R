@@ -219,4 +219,4 @@ filter(mpg, cyl == 8)
 
 
 # unload packages
-pacman::p_unload(tidyverse)
+suppressMessages(pacman::p_unload(tidyverse))

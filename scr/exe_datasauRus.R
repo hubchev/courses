@@ -99,4 +99,4 @@ for (uni_v in uni_ds) {
 }
 
 # unload packages
-pacman::p_unload(datasauRus, tidyverse)
+suppressMessages(pacman::p_unload(datasauRus, tidyverse))

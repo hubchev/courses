@@ -44,4 +44,4 @@ identical(df3, df4)
 identical(df3, df5)
 
 # unload packages
-pacman::p_unload(datasets, tidyverse)
+suppressMessages(pacman::p_unload(datasets, tidyverse))

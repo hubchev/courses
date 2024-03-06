@@ -105,4 +105,4 @@ plot(residuals(m3), classdata$siblings)
 #  rmarkdown::render("regress_lecture.Rmd", "all")
 
 #  unload packages
-pacman::p_unload(tidyverse, haven)
+suppressMessages(pacman::p_unload(tidyverse, haven))

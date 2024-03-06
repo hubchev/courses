@@ -34,4 +34,4 @@ df %>%
 
 
 #  unload packages
-pacman::p_unload(tidyverse, readxl)
+suppressMessages(pacman::p_unload(tidyverse, readxl))

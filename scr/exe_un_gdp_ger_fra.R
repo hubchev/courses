@@ -81,4 +81,4 @@ plot(dfger$gdppc, dfger$unemployment, type = "b",
 
 # knitr::purl(input = "22-11_dsda_exam.Rmd", output = "22-11_dsda_solution.R",documentation = 0)
 
-pacman::p_unload(tidyverse, ggpubr, sjPlot)
+suppressMessages(pacman::p_unload(tidyverse, ggpubr, sjPlot))

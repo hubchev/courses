@@ -335,10 +335,10 @@ print(plots$`Meidericher SV`)
 print(plots$`1. FC Koeln`)
 
 # unload packages
-pacman::p_unload(
+suppressMessages(pacman::p_unload(
   bundesligR,
   tidyverse
-)
+))
 
 # Remove the "test" directory and its contents after saving all graphs
 unlink("test", recursive = TRUE)

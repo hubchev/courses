@@ -85,4 +85,4 @@ carsSub2 <- cars %>%
 
 
 # unload packages
-pacman::p_unload(tidyverse, dplyr, tibble)
+suppressMessages(pacman::p_unload(tidyverse, dplyr, tibble))

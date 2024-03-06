@@ -27,4 +27,4 @@ mtcars_new <- mtcars_new |>
 mtcars_new  
 
 # unload packages
-pacman::p_unload(datasets, tidyverse)
+suppressMessages(pacman::p_unload(datasets, tidyverse))

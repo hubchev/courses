@@ -93,4 +93,4 @@ tail(df_poser, 5)
 
 
 # unload packages
-pacman::p_unload(tidyverse, haven, ggrepel)
+suppressMessages(pacman::p_unload(tidyverse, haven, ggrepel))

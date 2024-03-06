@@ -181,7 +181,7 @@ data %>%
     y95 = mean(gdppc95, na.rm = TRUE)
   )
 
-pacman::p_unload(haven, tidyverse, vtable, gtsummary, pastecs, Hmisc, 
-               sjlabelled, tis, ggpubr, sjPlot)
+suppressMessages(pacman::p_unload(haven, tidyverse, vtable, gtsummary, pastecs, Hmisc, 
+               sjlabelled, tis, ggpubr, sjPlot))
 
     

@@ -88,5 +88,5 @@ summary(reg_base)
 
 
 # unload packages
-pacman::p_unload(tidyverse, haven)
+suppressMessages(pacman::p_unload(tidyverse, haven))
 

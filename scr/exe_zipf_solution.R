@@ -139,6 +139,8 @@ df |>
   select(city, pop2011, pred_pop) |> 
   filter(city == "Regensburg")
 
+suppressMessages(pacman::p_unload(tidyverse, haven, janitor, jtools))
+
 # rmarkdown::render("24-01_dsda.Rmd", "all")
 
 # knitr::purl(input = "24-01_dsda.Rmd", output = "24-01_dsda_solution.R",documentation = 0)
