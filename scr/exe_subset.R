@@ -3,9 +3,7 @@
 # Stephan Huber; 2022-06-07
 
 # setwd("/home/sthu/Dropbox/hsf/22-ss/dsda/work/")
-rm(list=ls())
-
-
+rm(list = ls())
 
 # 0
 # load packages
@@ -59,28 +57,28 @@ dim(cars_mpg)
 cars_whattever <- filter(cars, mpg < 16 & hp > 100)
 
 # 14
-carsSub <- filter(cars, cyl == 8) 
+carsSub <- filter(cars, cyl == 8)
 carsSub <- select(carsSub, wt, qsec, hp, car)
 dim(carsSub)
 
 # 15
 # Alternative with pipe operator:
-carsSub <- cars %>%
-  filter(cyl == 8) %>%
+carsSub <- cars |>
+  filter(cyl == 8) |>
   select(wt, qsec, hp, car)
 
 # 16
 carsSub <- arrange(carsSub, wt)
 
 # 17
-carsSub <- carsSub %>% 
+carsSub <- carsSub |>
   mutate(wt2 = wt^2)
 
 # Alternatively you can put everything into one pipe:
-carsSub2 <- cars %>%
-  filter(cyl == 8) %>%
-  select(wt, qsec, hp, car) %>% 
-  arrange(carsSub, wt) %>% 
+carsSub2 <- cars |>
+  filter(cyl == 8) |>
+  select(wt, qsec, hp, car) |>
+  arrange(carsSub, wt) |>
   mutate(wt2 = wt^2)
 
 
