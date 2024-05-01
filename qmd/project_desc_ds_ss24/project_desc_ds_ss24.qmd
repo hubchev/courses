@@ -21,7 +21,7 @@ format:
     toc-depth: 2
     number-sections: true
   pdf:
-    keep-tex: true
+    keep-tex: false
     template-partials: 
       - title.tex
     include-in-header:
@@ -32,7 +32,7 @@ format:
         \renewcommand*{\Authands}{, }
         \renewcommand\Affilfont{\small}
     documentclass: scrartcl
-    classoption: [onecolumn, oneside]
+    classoption: [onecolumn, oneside, a4paper]
     cite-method: natbib
     linkcolor: blue
     urlcolor: blue
