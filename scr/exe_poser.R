@@ -26,8 +26,8 @@ if (!dir.exists("fig")) {
 }
 
 # Save the scatter plot in different formats
-ggsave("fig/scatter_plot.png", plot = scatter_plot, device = "png")
-ggsave("fig/scatter_plot.pdf", plot = scatter_plot, device = "pdf")
+# ggsave("fig/scatter_plot.png", plot = scatter_plot, device = "png")
+# ggsave("fig/scatter_plot.pdf", plot = scatter_plot, device = "pdf")
 
 # Create 'lp100km' variable for fuel consumption
 n_auto <- auto |>
@@ -37,14 +37,16 @@ n_auto <- auto |>
 n_auto <- n_auto |>
   mutate(larger6000 = ifelse(price > 6000, 1, 0))
 
-n_auto <- n_auto |>
-  filter(larger6000 == 0)
+
 
 # Normalize variables
 
 ## Do it slowly
 n_auto <- n_auto |>
   mutate(sprice = (price - min(auto$price)) / (max(auto$price) - min(auto$price)))
+
+n_auto <- n_auto |>
+  filter(larger6000 == 0)
 
 ## Do it with a self-written function
 min_max_norm <- function(x) {
