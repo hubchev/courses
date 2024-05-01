@@ -219,8 +219,6 @@ The project submission includes:
     -   assess whether your empirical reasoning makes sense and discuss your remaining weaknesses,
     -   acknowledge your learning process.
 
-# List of paper {#sec-projects}
-
 # Literature
 
 ::: {#refs}
