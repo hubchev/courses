@@ -10,4 +10,6 @@ cases <- c(24111, 25466, 16145)
 df_covid <- data.frame(state, deaths)
 tbl_covid <- tibble(state, deaths)
 
+tbl_covid
+
 suppressMessages(pacman::p_unload(tibble))
