@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.9.11)  9 NOV 2023 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.10)  18 JUN 2024 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -470,7 +470,22 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no L in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -482,16 +497,45 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
 Missing character: There is no A in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.31 \pbn
+l.15 \pbn
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -536,47 +580,47 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (26.15263pt too wide) in paragraph at lines 32--33
+Overfull \hbox (26.15263pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 KISS
  []
 
 
-Overfull \hbox (22.68045pt too wide) in paragraph at lines 32--33
+Overfull \hbox (22.68045pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 keep
  []
 
 
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 32--33
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 it
  []
 
 
-Overfull \hbox (21.1471pt too wide) in paragraph at lines 32--33
+Overfull \hbox (21.1471pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 sim-
  []
 
 
-Overfull \hbox (14.8541pt too wide) in paragraph at lines 32--33
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 ple
  []
 
 
-Overfull \hbox (18.36794pt too wide) in paragraph at lines 32--33
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 and
  []
 
 
-Overfull \hbox (42.65392pt too wide) in paragraph at lines 32--33
+Overfull \hbox (42.65392pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 straight-
  []
 
 
-Overfull \hbox (17.83325pt too wide) in paragraph at lines 32--33
+Overfull \hbox (17.83325pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 for-
  []
 
 
-Overfull \hbox (24.70125pt too wide) in paragraph at lines 32--33
+Overfull \hbox (24.70125pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 ward 
  []
 
@@ -752,7 +796,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.36 \boxb
+l.20 \boxb
           {However, KISS does not mean that the course is easy! If you are n...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1188,7 +1232,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.40 ...s is the best method for students to \itex
+l.24 ...s is the best method for students to \itex
                                                   {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1359,7 +1403,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.51 	\pbn
+l.35 	\pbn
           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1542,7 +1586,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.56 ...this lecture. I personally recommend \itex
+l.40 ...this lecture. I personally recommend \itex
                                                   {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1551,14 +1595,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (54.24278pt too wide) in paragraph at lines 53--57
+Overfull \hbox (54.24278pt too wide) in paragraph at lines 37--41
 \OT1/cmr/bx/n/10 Literature:
  []
 
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.57 		\item \bibentry
+l.41 		\item \bibentry
                       {Mankiw2020Principles},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1590,7 +1634,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.58 		\item \bibentry
+l.42 		\item \bibentry
                       {Blanchard2013Blanchard},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1624,7 +1668,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.59 		\item \bibentry
+l.43 		\item \bibentry
                       {Shapiro2022Principles},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1671,7 +1715,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.62 \itex
+l.46 \itex
           {		\item \bibentry{Parkin2012Economics}, {Case2019Principles}, , or
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1682,7 +1726,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.62 \itex{		\item \bibentry
+l.46 \itex{		\item \bibentry
                             {Parkin2012Economics}, {Case2019Principles}, , or
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1735,7 +1779,7 @@ Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.63 		\item \bibentry
+l.47 		\item \bibentry
                       {Krugman2018Economics}.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1916,7 +1960,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.65 	\itex
+l.49 	\itex
            {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1927,7 +1971,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.66 		\item \bibentry
+l.50 		\item \bibentry
                       {Shapiro2022Principles},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1960,7 +2004,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.67 		\item \bibentry
+l.51 		\item \bibentry
                       {Anonymous2020Principles},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1995,7 +2039,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.68 		\item \bibentry
+l.52 		\item \bibentry
                       {Goodwin2012Economix}, and
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2029,7 +2073,7 @@ Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
 <recently read> \bibentry 
                           
-l.69 		\item \bibentry
+l.53 		\item \bibentry
                       {Klein2010Cartoon}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2115,7 +2159,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.75 \desx
+l.59 \desx
           {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2906,7 +2950,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.81 \itex
+l.65 \itex
           {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2919,7 +2963,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.82 	\item \cite{Academy2012International}
+l.66 	\item \cite{Academy2012International}
                                            : \bibentry{Academy2012Internatio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2929,12 +2973,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Academy2012International' on page  undefined on input 
-line 82.
+line 66.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.82 ...\cite{Academy2012International}: \bibentry
+l.66 ...\cite{Academy2012International}: \bibentry
                                                   {Academy2012International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2967,7 +3011,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 82--83
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 66--67
 [] 
  []
 
@@ -2976,7 +3020,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.83 	\item \cite{Krugman2017International}
+l.67 	\item \cite{Krugman2017International}
                                            : \bibentry{Krugman2017Internatio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2986,12 +3030,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Krugman2017International' on page  undefined on input 
-line 83.
+line 67.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.83 ...\cite{Krugman2017International}: \bibentry
+l.67 ...\cite{Krugman2017International}: \bibentry
                                                   {Krugman2017International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3024,7 +3068,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 83--84
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 67--68
 [] 
  []
 
@@ -3033,7 +3077,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.84 	\item \cite{Feenstra2017International}
+l.68 	\item \cite{Feenstra2017International}
                                             : \bibentry{Feenstra2017Internat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3043,12 +3087,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Feenstra2017International' on page  undefined on input
- line 84.
+ line 68.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.84 ...cite{Feenstra2017International}: \bibentry
+l.68 ...cite{Feenstra2017International}: \bibentry
                                                   {Feenstra2017International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3082,7 +3126,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 84--85
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 68--69
 [] 
  []
 
@@ -3091,7 +3135,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.85 	\item \cite{Pugel2015International}
+l.69 	\item \cite{Pugel2015International}
                                          : \bibentry{Pugel2015International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3101,12 +3145,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Pugel2015International' on page  undefined on input li
-ne 85.
+ne 69.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.85 ...m \cite{Pugel2015International}: \bibentry
+l.69 ...m \cite{Pugel2015International}: \bibentry
                                                   {Pugel2015International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3137,7 +3181,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 85--86
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 69--70
 [] 
  []
 
@@ -3146,7 +3190,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.86 	\item \cite{Robert2016International}
+l.70 	\item \cite{Robert2016International}
                                           : \bibentry{Robert2016International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3156,12 +3200,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Robert2016International' on page  undefined on input l
-ine 86.
+ine 70.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.86 ... \cite{Robert2016International}: \bibentry
+l.70 ... \cite{Robert2016International}: \bibentry
                                                   {Robert2016International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3193,7 +3237,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 86--87
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 70--71
 [] 
  []
 
@@ -3202,7 +3246,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.87 	\item \cite{Marrewijk2012International}
+l.71 	\item \cite{Marrewijk2012International}
                                              : \bibentry{Marrewijk2012Intern...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3212,12 +3256,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Marrewijk2012International' on page  undefined on inpu
-t line 87.
+t line 71.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.87 ...ite{Marrewijk2012International}: \bibentry
+l.71 ...ite{Marrewijk2012International}: \bibentry
                                                   {Marrewijk2012International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3252,7 +3296,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 87--88
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 71--72
 [] 
  []
 
@@ -3261,7 +3305,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.88 	\item \cite{Marrewijk2017International}
+l.72 	\item \cite{Marrewijk2017International}
                                              : \bibentry{Marrewijk2017Intern...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3271,12 +3315,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Marrewijk2017International' on page  undefined on inpu
-t line 88.
+t line 72.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.88 ...ite{Marrewijk2017International}: \bibentry
+l.72 ...ite{Marrewijk2017International}: \bibentry
                                                   {Marrewijk2017International}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3311,1782 +3355,9 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 88--91
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 72--75
 []
  []
-
-! Undefined control sequence.
-l.92 \pbn
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.93 \section
-             *{Plan for an international economics course}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no * in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no . in font nullfont!
-
-! LaTeX Error: Environment tabularx undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 	\begin{tabularx}
-                      {\textwidth}{r |@{\foo} lX}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.97 	\begin{tabularx}{\textwidth}
-                                  {r |@{\foo} lX}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.97 	\begin{tabularx}{\textwidth}
-                                  {r |@{\foo} lX}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no r in font nullfont!
-Missing character: There is no | in font nullfont!
-Missing character: There is no @ in font nullfont!
-! Undefined control sequence.
-l.97 	\begin{tabularx}{\textwidth}{r |@{\foo
-                                            } lX}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no l in font nullfont!
-Missing character: There is no X in font nullfont!
-! Undefined control sequence.
-l.98 		\toprule
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Misplaced alignment tab character &.
-l.99 		Section &
-                 Lecture & Tutorial and/or Self-Study\\\midrule
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Missing character: There is no L in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-! Misplaced alignment tab character &.
-l.99 		Section & Lecture &
-                           Tutorial and/or Self-Study\\\midrule
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Missing character: There is no T in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no y in font nullfont!
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.99 ...ure & Tutorial and/or Self-Study\\\midrule
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no 1 in font nullfont!
-! Misplaced alignment tab character &.
-l.100 		1	&
-            Preface, \autoref{sec:Introduction}	& \pencil exercises: \ref{ex...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-l.100 		1	& Preface, \autoref
-                             {sec:Introduction}	& \pencil exercises: \ref{ex...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Misplaced alignment tab character &.
-l.100 		1	& Preface, \autoref{sec:Introduction}	&
-                                                  \pencil exercises: \ref{ex...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.100 ...ace, \autoref{sec:Introduction}	& \pencil
-                                                   exercises: \ref{exe:Trade...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no : in font nullfont!
-! Undefined control sequence.
-<write> ...`exe:Trade and Putin' on page \thepage 
-                                                  \space undefined\on@line .
-l.100 ...ncil exercises: \ref{exe:Trade and Putin}
-                                                  , \ref{exe:Milton Friedman...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Trade and Putin' on page  undefined on input line
- 100.
-
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-<write> ...man's pencil parable' on page \thepage 
-                                                  \space undefined\on@line .
-l.100 ...ref{exe:Milton Friedman's pencil parable}
-                                                  , \ref{exe:Free trade: goo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Milton Friedman's pencil parable' on page  undefi
-ned on input line 100.
-
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-<write> ... trade: good or bad?' on page \thepage 
-                                                  \space undefined\on@line .
-l.100 ...able}, \ref{exe:Free trade: good or bad?}
-                                                  , \ref{exe:A country is no...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Free trade: good or bad?' on page  undefined on i
-nput line 100.
-
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-<write> ...try is not a company' on page \thepage 
-                                                  \space undefined\on@line .
-l.100 ...d?}, \ref{exe:A country is not a company}
-                                                   \readsmall \autoref{sec:I...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:A country is not a company' on page  undefined on
- input line 100.
-
-! Undefined control sequence.
-l.100 ...xe:A country is not a company} \readsmall
-                                                   \autoref{sec:Important te...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.100 ...try is not a company} \readsmall \autoref
-                                                  {sec:Important terms (glos...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no ) in font nullfont!
-Missing character: There is no 2 in font nullfont!
-! Misplaced alignment tab character &.
-l.101 		2		&
-             \autoref{sec:The foreign exchange market}, \autoref{sec:Purchas...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.101 		2		& \autoref
-                     {sec:The foreign exchange market}, \autoref{sec:Purchas...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-l.101 ...ec:The foreign exchange market}, \autoref
-                                                  {sec:Purchasing power pari...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Misplaced alignment tab character &.
-l.102 		&
-          \pencil exercises: 	\autoref{exe:Arbitrage}, \autoref{exe:Big-Mac-...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.102 		& \pencil
-                  exercises: 	\autoref{exe:Arbitrage}, \autoref{exe:Big-Mac-...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no : in font nullfont!
-! Undefined control sequence.
-l.102 		& \pencil exercises: 	\autoref
-                                      {exe:Arbitrage}, \autoref{exe:Big-Mac-...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-l.102 ...cises: 	\autoref{exe:Arbitrage}, \autoref
-                                                  {exe:Big-Mac-Index vs. Mac...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 97--103
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 97--103
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 97--103
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 97--103
-[]
- []
-
-Missing character: There is no 3 in font nullfont!
-! Misplaced alignment tab character &.
-l.105 		3		&
-             \autoref{sec:International investments}	& \pencil exercises: \r...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.105 		3		& \autoref
-                     {sec:International investments}	& \pencil exercises: \r...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-! Misplaced alignment tab character &.
-l.105 ...\autoref{sec:International investments}	&
-                                                   \pencil exercises: \ref{e...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.105 ...{sec:International investments}	& \pencil
-                                                   exercises: \ref{exe:Big M...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no : in font nullfont!
-! Undefined control sequence.
-<write> ...xe:Big Mac economics' on page \thepage 
-                                                  \space undefined\on@line .
-l.105 ...il exercises: \ref{exe:Big Mac economics}
-                                                  , \ref{exe:Brexit and the ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Big Mac economics' on page  undefined on input li
-ne 105.
-
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-<write> ...nd the exchange rate' on page \thepage 
-                                                  \space undefined\on@line .
-l.105 ...}, \ref{exe:Brexit and the exchange rate}
-                                                  , \ref{exe:FOREX MC}, \ref...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Brexit and the exchange rate' on page  undefined 
-on input line 105.
-
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-<write> ...erence `exe:FOREX MC' on page \thepage 
-                                                  \space undefined\on@line .
-l.105 ...nd the exchange rate}, \ref{exe:FOREX MC}
-                                                  , \ref{exe:Turkey vs. Germ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:FOREX MC' on page  undefined on input line 105.
-
-Missing character: There is no , in font nullfont!
-! Undefined control sequence.
-<write> ...e:Turkey vs. Germany' on page \thepage 
-                                                  \space undefined\on@line .
-l.105 ...e:FOREX MC}, \ref{exe:Turkey vs. Germany}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Turkey vs. Germany' on page  undefined on input l
-ine 105.
-
-Missing character: There is no 4 in font nullfont!
-! Misplaced alignment tab character &.
-l.106 		4	&
-            \autoref{sec:balance-of-payments}	&	\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.106 		4	& \autoref
-                    {sec:balance-of-payments}	&	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-! Misplaced alignment tab character &.
-l.106 		4	& \autoref{sec:balance-of-payments}	&
-                                               	\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Missing character: There is no 5 in font nullfont!
-! Misplaced alignment tab character &.
-l.107 		5	&
-            \autoref{sec:mankiw} -- \autoref{sec:Microeconomic_foundation}	&...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.107 		5	& \autoref
-                    {sec:mankiw} -- \autoref{sec:Microeconomic_foundation}	&...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-! Undefined control sequence.
-l.107 		5	& \autoref{sec:mankiw} -- \autoref
-                                            {sec:Microeconomic_foundation}	&...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.107 ...ec:mankiw} -- \autoref{sec:Microeconomic_
-                                                  foundation}	& \pencil exer...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 107.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 107.
-! Extra }, or forgotten $.
-l.107 ...-- \autoref{sec:Microeconomic_foundation}
-                                                  	& \pencil exercises: \ref...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-l.107 ... \autoref{sec:Microeconomic_foundation}	&
-                                                   \pencil exercises: \ref{e...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.107 ...f{sec:Microeconomic_foundation}	& \pencil
-                                                   exercises: \ref{exe:Under...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...rstanding production' on page \thepage 
-                                                  \space undefined\on@line .
-l.107 ...cises: \ref{exe:Understanding production}
-                                                  , \ref{exe:Understanding i...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Understanding production' on page  undefined on i
-nput line 107.
-
-! Undefined control sequence.
-<write> ... indifference curves' on page \thepage 
-                                                  \space undefined\on@line .
-l.107 ...ef{exe:Understanding indifference curves}
-                                                  , \ref{exe:Utility maximiz...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Understanding indifference curves' on page  undef
-ined on input line 107.
-
-! Undefined control sequence.
-<write> ...Utility maximization' on page \thepage 
-                                                  \space undefined\on@line .
-l.107 ...e curves}, \ref{exe:Utility maximization}
-                                                  , \ref{exe:Sketch importan...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Utility maximization' on page  undefined on input
- line 107.
-
-! Undefined control sequence.
-<write> ...h important insights' on page \thepage 
-                                                  \space undefined\on@line .
-l.107 ...ion}, \ref{exe:Sketch important insights}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Sketch important insights' on page  undefined on 
-input line 107.
-
-! Misplaced alignment tab character &.
-l.108 		6	&
-            \autoref{sec:exchange-economy}	& \pencil exercise: \ref{exe:How ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.108 		6	& \autoref
-                    {sec:exchange-economy}	& \pencil exercise: \ref{exe:How ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.108 		6	& \autoref{sec:exchange-economy}	&
-                                             \pencil exercise: \ref{exe:How ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.108 ... \autoref{sec:exchange-economy}	& \pencil
-                                                   exercise: \ref{exe:How Ba...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...bara and Anton trade' on page \thepage 
-                                                  \space undefined\on@line .
-l.108 ...se: \ref{exe:How Barbara and Anton trade}
-                                                  ,	\ref{exe:Terms of trade}\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:How Barbara and Anton trade' on page  undefined o
-n input line 108.
-
-! Undefined control sequence.
-<write> ... `exe:Terms of trade' on page \thepage 
-                                                  \space undefined\on@line .
-l.108 ...nd Anton trade},	\ref{exe:Terms of trade}
-                                                  \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Terms of trade' on page  undefined on input line 
-108.
-
-! Misplaced alignment tab character &.
-l.109 		7	&
-            \autoref{sec:imi}	& \pencil exercises: 	\ref{exe:Terms of trade}...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.109 		7	& \autoref
-                    {sec:imi}	& \pencil exercises: 	\ref{exe:Terms of trade}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.109 		7	& \autoref{sec:imi}	&
-                                \pencil exercises: 	\ref{exe:Terms of trade}...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.109 		7	& \autoref{sec:imi}	& \pencil
-                                        exercises: 	\ref{exe:Terms of trade}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ... `exe:Terms of trade' on page \thepage 
-                                                  \space undefined\on@line .
-l.109 ...ncil exercises: 	\ref{exe:Terms of trade}
-                                                  , \ref{exe:Production and ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Terms of trade' on page  undefined on input line 
-109.
-
-! Undefined control sequence.
-<write> ...tion and consumption' on page \thepage 
-                                                  \space undefined\on@line .
-l.109 ...de}, \ref{exe:Production and consumption}
-                                                  , \ref{exe:Gains of small ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Production and consumption' on page  undefined on
- input line 109.
-
-! Undefined control sequence.
-<write> ...s of small economies' on page \thepage 
-                                                  \space undefined\on@line .
-l.109 ...tion}, \ref{exe:Gains of small economies}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Gains of small economies' on page  undefined on i
-nput line 109.
-
-! Misplaced alignment tab character &.
-l.111 		8	&
-            \autoref{sec:ricardo}	&   \pencil exercises: \ref{exe:Indifferen...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.111 		8	& \autoref
-                    {sec:ricardo}	&   \pencil exercises: \ref{exe:Indifferen...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.111 		8	& \autoref{sec:ricardo}	&
-                                      \pencil exercises: \ref{exe:Indifferen...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.111 		8	& \autoref{sec:ricardo}	&   \pencil
-                                              exercises: \ref{exe:Indifferen...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ... complementary goods' on page \thepage 
-                                                  \space undefined\on@line .
-l.111 ...e curves for perfect complementary goods}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Indifference curves for perfect complementary goo
-ds' on page  undefined on input line 111.
-
-! Misplaced alignment tab character &.
-l.112 		9	&
-           	&  \pencil exercises:  \ref{exe:Comparative advantage and input ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.112 		9	&	&
-               \pencil exercises:  \ref{exe:Comparative advantage and input ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.112 		9	&	&  \pencil
-                       exercises:  \ref{exe:Comparative advantage and input ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...d input coefficients' on page \thepage 
-                                                  \space undefined\on@line .
-l.112 ...arative advantage and input coefficients}
-                                                   -- \ref{exe:Bikes and bik...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Comparative advantage and input coefficients' on 
-page  undefined on input line 112.
-
-! Undefined control sequence.
-<write> ...Bikes and bike tires' on page \thepage 
-                                                  \space undefined\on@line .
-l.112 ...cients} -- \ref{exe:Bikes and bike tires}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Bikes and bike tires' on page  undefined on input
- line 112.
-
-! Misplaced alignment tab character &.
-l.113 		10	&
-             \autoref{sec:ho}	&  \pencil exercises:  \ref{exe:Ricardian mode...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.113 		10	& \autoref
-                     {sec:ho}	&  \pencil exercises:  \ref{exe:Ricardian mode...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.113 		10	& \autoref{sec:ho}	&
-                                 \pencil exercises:  \ref{exe:Ricardian mode...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.113 		10	& \autoref{sec:ho}	&  \pencil
-                                         exercises:  \ref{exe:Ricardian mode...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...e:Ricardian model MC' on page \thepage 
-                                                  \space undefined\on@line .
-l.113 ... exercises:  \ref{exe:Ricardian model MC}
-                                                   -- \ref{exe:Multiple choi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Ricardian model MC' on page  undefined on input l
-ine 113.
-
-! Undefined control sequence.
-<write> ...ple choice: HO-Model' on page \thepage 
-                                                  \space undefined\on@line .
-l.113 ...C} -- \ref{exe:Multiple choice: HO-Model}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Multiple choice: HO-Model' on page  undefined on 
-input line 113.
-
-! Misplaced alignment tab character &.
-l.114 		11	&
-             \autoref{sec:Stylized facts on trade openness} -- \autoref{sec:...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.114 		11	& \autoref
-                     {sec:Stylized facts on trade openness} -- \autoref{sec:...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.114 ...ized facts on trade openness} -- \autoref
-                                                  {sec:Trump and trade}	&  \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.114 ...nness} -- \autoref{sec:Trump and trade}	&
-                                                    \pencil exercises: \ref{...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.114 ... \autoref{sec:Trump and trade}	&  \pencil
-                                                   exercises: \ref{exe:Buy l...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...:Buy local be happy?' on page \thepage 
-                                                  \space undefined\on@line .
-l.114 ... exercises: \ref{exe:Buy local be happy?}
-                                                  , \ref{exe:God's diplomacy...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Buy local be happy?' on page  undefined on input 
-line 114.
-
-! Undefined control sequence.
-<write> ...`exe:God's diplomacy' on page \thepage 
-                                                  \space undefined\on@line .
-l.114 ...cal be happy?}, \ref{exe:God's diplomacy}
-                                                  , \ref{exe:Trump complains...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:God's diplomacy' on page  undefined on input line
- 114.
-
-! Undefined control sequence.
-<write> ...plains about the WTO' on page \thepage 
-                                                  \space undefined\on@line .
-l.114 ..., \ref{exe:Trump complains about the WTO}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Trump complains about the WTO' on page  undefined
- on input line 114.
-
-! Misplaced alignment tab character &.
-l.115 		12 	&
-              \autoref{sec:Arguments for trade restrictions} -- \autoref{sec...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.115 		12 	& \autoref
-                      {sec:Arguments for trade restrictions} -- \autoref{sec...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.115 ...ments for trade restrictions} -- \autoref
-                                                  {sec:Other nontariff trade...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.115 ...ref{sec:Other nontariff trade barriers}	&
-                                                    \pencil exercises:  \ref...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.115 ...ther nontariff trade barriers}	&  \pencil
-                                                   exercises:  \ref{exe:Argu...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...r trade restrictions' on page \thepage 
-                                                  \space undefined\on@line .
-l.115 ...ref{exe:Arguments for trade restrictions}
-                                                  , \ref{exe:Tariff}	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Arguments for trade restrictions' on page  undefi
-ned on input line 115.
-
-! Undefined control sequence.
-<write> ...eference `exe:Tariff' on page \thepage 
-                                                  \space undefined\on@line .
-l.115 ...for trade restrictions}, \ref{exe:Tariff}
-                                                  	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `exe:Tariff' on page  undefined on input line 115.
-
-! Misplaced alignment tab character &.
-l.116 		13/14	&
-               Exam preparation, Q\&A & \pencil past exams	\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.116 		13/14	&Exam preparation, Q\&A &
-                                        \pencil past exams	\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.116 		13/14	&Exam preparation, Q\&A & \pencil
-                                                past exams	\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.118 		
-        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.118 		
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 105--118
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 105--118
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 105--118
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 105--118
-[] 
- []
-
-
-Overfull \hbox (97.33144pt too wide) in paragraph at lines 105--118
-[]\OML/cmm/m/it/10 oundationexercises \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (56.77745pt too wide) in paragraph at lines 105--118
-[]\OML/cmm/m/it/10 ; []; []; [][] 
- []
-
-
-Overfull \hbox (161.97182pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 6[]\OML/cmm/m/it/10 exercise \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (26.16652pt too wide) in paragraph at lines 105--118
-[]\OML/cmm/m/it/10 ; [][] 
- []
-
-
-Overfull \hbox (89.85156pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 7[]\OML/cmm/m/it/10 exercises \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (41.47198pt too wide) in paragraph at lines 105--118
-[]\OML/cmm/m/it/10 ; []; [][] 
- []
-
-
-Overfull \hbox (106.87057pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 8[]\OML/cmm/m/it/10 exercises \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 105--118
-[][] 
- []
-
-
-Overfull \hbox (52.17664pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 exercises \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (18.63885pt too wide) in paragraph at lines 105--118
-[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (18.63885pt too wide) in paragraph at lines 105--118
-\OMS/cmsy/m/n/10 ^^@[][] 
- []
-
-
-Overfull \hbox (89.79pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 10[]\OML/cmm/m/it/10 exercises \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (18.63885pt too wide) in paragraph at lines 105--118
-[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (18.63885pt too wide) in paragraph at lines 105--118
-\OMS/cmsy/m/n/10 ^^@[][] 
- []
-
-
-Overfull \hbox (174.12596pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 11[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (148.55754pt too wide) in paragraph at lines 105--118
-\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 exercises \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (41.47198pt too wide) in paragraph at lines 105--118
-[]\OML/cmm/m/it/10 ; []; [][] 
- []
-
-
-Overfull \hbox (182.71814pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 12[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (209.89282pt too wide) in paragraph at lines 105--118
-\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 exercises \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (26.16652pt too wide) in paragraph at lines 105--118
-[]\OML/cmm/m/it/10 ; [][] 
- []
-
-
-Overfull \hbox (180.88338pt too wide) in paragraph at lines 105--118
-\OT1/cmr/m/n/10 13\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 14\OML/cmm/m/it/10 Examprep
-aration; Q\OT1/cmr/m/n/10 &\OML/cmm/m/it/10 Apastexams[] 
- []
-
-! Undefined control sequence.
-l.119 		\bottomrule
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{itemize} on input line 6 ended by \end{tabularx}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 	\end{tabularx}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -5463,32 +3734,32 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (29.029pt too wide) in paragraph at lines 122--124
+Overfull \hbox (29.029pt too wide) in paragraph at lines 105--107
 \OT1/cmr/bx/n/10 Notes
  []
 
 
-Overfull \hbox (12.13882pt too wide) in paragraph at lines 122--124
+Overfull \hbox (12.13882pt too wide) in paragraph at lines 105--107
 \OT1/cmr/bx/n/10 on
  []
 
 
-Overfull \hbox (22.24988pt too wide) in paragraph at lines 122--124
+Overfull \hbox (22.24988pt too wide) in paragraph at lines 105--107
 \OT1/cmr/bx/n/10 Eco-
  []
 
 
-Overfull \hbox (30.02762pt too wide) in paragraph at lines 122--124
+Overfull \hbox (30.02762pt too wide) in paragraph at lines 105--107
 \OT1/cmr/bx/n/10 nomic
  []
 
 
-Overfull \hbox (25.87486pt too wide) in paragraph at lines 122--124
+Overfull \hbox (25.87486pt too wide) in paragraph at lines 105--107
 \OT1/cmr/bx/n/10 mod-
  []
 
 
-Overfull \hbox (16.19574pt too wide) in paragraph at lines 122--124
+Overfull \hbox (16.19574pt too wide) in paragraph at lines 105--107
 \OT1/cmr/bx/n/10 els: 
  []
 
@@ -5900,7 +4171,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.126 ...d that I act like the teacher of \autoref
+l.109 ...d that I act like the teacher of \autoref
                                                   {fig:bozos}. While that ma...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6074,8 +4345,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.127 \enux
-           {
+l.110 	\enux
+            {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7451,147 +5722,147 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
 
-Overfull \hbox (5.59023pt too wide) in paragraph at lines 133--135
+Overfull \hbox (5.59023pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 a
  []
 
 
-Overfull \hbox (17.83325pt too wide) in paragraph at lines 133--135
+Overfull \hbox (17.83325pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 for-
  []
 
 
-Overfull \hbox (18.36794pt too wide) in paragraph at lines 133--135
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 mal
  []
 
 
-Overfull \hbox (30.50679pt too wide) in paragraph at lines 133--135
+Overfull \hbox (30.50679pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 model
  []
 
 
-Overfull \hbox (15.49298pt too wide) in paragraph at lines 133--135
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 en-
  []
 
 
-Overfull \hbox (25.46791pt too wide) in paragraph at lines 133--135
+Overfull \hbox (25.46791pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 sures
  []
 
 
-Overfull \hbox (20.92348pt too wide) in paragraph at lines 133--135
+Overfull \hbox (20.92348pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 that
  []
 
 
-Overfull \hbox (19.23044pt too wide) in paragraph at lines 133--135
+Overfull \hbox (19.23044pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 stu-
  []
 
 
-Overfull \hbox (26.73735pt too wide) in paragraph at lines 133--135
+Overfull \hbox (26.73735pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 dents
  []
 
 
-Overfull \hbox (15.59714pt too wide) in paragraph at lines 133--135
+Overfull \hbox (15.59714pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 are
  []
 
 
-Overfull \hbox (16.61102pt too wide) in paragraph at lines 133--135
+Overfull \hbox (16.61102pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 not
  []
 
 
-Overfull \hbox (18.911pt too wide) in paragraph at lines 133--135
+Overfull \hbox (18.911pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 just
  []
 
 
-Overfull \hbox (13.84023pt too wide) in paragraph at lines 133--135
+Overfull \hbox (13.84023pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 re-
  []
 
 
-Overfull \hbox (25.87485pt too wide) in paragraph at lines 133--135
+Overfull \hbox (25.87485pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 peat-
  []
 
 
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 133--135
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 ing
  []
 
 
-Overfull \hbox (16.13187pt too wide) in paragraph at lines 133--135
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 the
  []
 
 
-Overfull \hbox (44.25114pt too wide) in paragraph at lines 133--135
+Overfull \hbox (44.25114pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 teacher's
  []
 
 
-Overfull \hbox (32.59149pt too wide) in paragraph at lines 133--135
+Overfull \hbox (32.59149pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 words,
  []
 
 
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 133--135
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 but
  []
 
 
-Overfull \hbox (15.59714pt too wide) in paragraph at lines 133--135
+Overfull \hbox (15.59714pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 are
  []
 
 
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 133--135
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 able
  []
 
 
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 133--135
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 to
  []
 
 
-Overfull \hbox (26.51375pt too wide) in paragraph at lines 133--135
+Overfull \hbox (26.51375pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 think
  []
 
 
-Overfull \hbox (18.36794pt too wide) in paragraph at lines 133--135
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 and
  []
 
 
-Overfull \hbox (19.43045pt too wide) in paragraph at lines 133--135
+Overfull \hbox (19.43045pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 rea-
  []
 
 
-Overfull \hbox (16.6749pt too wide) in paragraph at lines 133--135
+Overfull \hbox (16.6749pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 son
  []
 
 
-Overfull \hbox (13.99994pt too wide) in paragraph at lines 133--135
+Overfull \hbox (13.99994pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 for
  []
 
 
-Overfull \hbox (29.54846pt too wide) in paragraph at lines 133--135
+Overfull \hbox (29.54846pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 them-
  []
 
 
-Overfull \hbox (31.7526pt too wide) in paragraph at lines 133--135
+Overfull \hbox (31.7526pt too wide) in paragraph at lines 116--118
 \OT1/cmr/bx/n/10 selves. 
  []
 
@@ -7602,8 +5873,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \begin{figure}
-                    [H]
+l.120 	\begin{figure}
+                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -7612,13 +5883,13 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 137--138
+Overfull \hbox (20.0pt too wide) in paragraph at lines 120--121
 [] 
  []
 
 ! Undefined control sequence.
-l.140 	\includegraphics
-                       [width=.7\linewidth]{$HOME/Dropbox/hsf/pic/soph}
+l.123 		\includegraphics
+                        [width=.7\linewidth]{$HOME/Dropbox/hsf/pic/soph}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7637,8 +5908,8 @@ Missing character: There is no 7 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.140 	\includegraphics[width=.7\linewidth]
-                                           {$HOME/Dropbox/hsf/pic/soph}
+l.123 		\includegraphics[width=.7\linewidth]
+                                            {$HOME/Dropbox/hsf/pic/soph}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -7646,8 +5917,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.140 	\includegraphics[width=.7\linewidth]
-                                           {$HOME/Dropbox/hsf/pic/soph}
+l.123 		\includegraphics[width=.7\linewidth]
+                                            {$HOME/Dropbox/hsf/pic/soph}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -7656,8 +5927,12 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no ] in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 123.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 123.
 ! Extra }, or forgotten $.
-l.140 ....7\linewidth]{$HOME/Dropbox/hsf/pic/soph}
+l.123 ....7\linewidth]{$HOME/Dropbox/hsf/pic/soph}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -7672,24 +5947,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 	\caption
-               {How to be a bad teacher of international economics}
+l.124 		\caption
+                {How to be a bad teacher of international economics}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.143 	
-       
+l.126 		
+        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.143 	
-       
+l.126 		
+        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -7697,7 +5972,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (352.2806pt too wide) in paragraph at lines 140--143
+Overfull \hbox (352.2806pt too wide) in paragraph at lines 123--126
  \OML/cmm/m/it/10 HOME=Dropbox=hsf=pic=soph[][][]$ 
  []
 
@@ -7708,15 +5983,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 \end{figure}
-                  
+l.128 	\end{figure}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.148 \boxb
-           {\subsection*{How to prepare for the exam}\label{sec:howtoprepare}
+l.131 	\boxb
+            {\subsection*{How to prepare for the exam}\label{sec:howtoprepare}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7724,8 +5999,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.148 \boxb{\subsection
-                       *{How to prepare for the exam}\label{sec:howtoprepare}
+l.131 	\boxb{\subsection
+                        *{How to prepare for the exam}\label{sec:howtoprepare}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7756,8 +6031,8 @@ Missing character: There is no x in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.150 		\includegraphics
-                        [width=0.9\linewidth]{../../../pic/Richard-Feynman}
+l.133 			\includegraphics
+                         [width=0.9\linewidth]{../../../pic/Richard-Feynman}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7777,8 +6052,8 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.150 		\includegraphics[width=0.9\linewidth]
-                                             {../../../pic/Richard-Feynman}
+l.133 			\includegraphics[width=0.9\linewidth]
+                                              {../../../pic/Richard-Feynman}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -7786,8 +6061,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.150 		\includegraphics[width=0.9\linewidth]
-                                             {../../../pic/Richard-Feynman}
+l.133 			\includegraphics[width=0.9\linewidth]
+                                              {../../../pic/Richard-Feynman}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -7842,8 +6117,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.153 		Richard P. Feynman: \zitat
-                                  {``I don't know what's the matter with peo...
+l.136 			Richard P. Feynman: \zitat
+                                   {``I don't know what's the matter with pe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7990,8 +6265,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no ' in font nullfont!
 ! Undefined control sequence.
-l.156 		\includegraphics
-                        [width=0.9\linewidth]{../../../pic/huber2}
+l.139 			\includegraphics
+                         [width=0.9\linewidth]{../../../pic/huber2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8011,8 +6286,8 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.156 		\includegraphics[width=0.9\linewidth]
-                                             {../../../pic/huber2}
+l.139 			\includegraphics[width=0.9\linewidth]
+                                              {../../../pic/huber2}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -8020,8 +6295,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.156 		\includegraphics[width=0.9\linewidth]
-                                             {../../../pic/huber2}
+l.139 			\includegraphics[width=0.9\linewidth]
+                                              {../../../pic/huber2}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -8063,8 +6338,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.159 		Stephan Huber: \zitat
-                             {I agree with Feynman: The key to learning is u...
+l.142 			Stephan Huber: \zitat
+                              {I agree with Feynman: The key to learning is ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8291,33 +6566,33 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 148--161
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--144
 []
  []
 
 
-Overfull \hbox (1638.37498pt too wide) in paragraph at lines 148--161
+Overfull \hbox (1638.37498pt too wide) in paragraph at lines 131--144
 []$
  []
 
 
-Overfull \hbox (6553.62498pt too wide) in paragraph at lines 148--161
+Overfull \hbox (6553.62498pt too wide) in paragraph at lines 131--144
 []$
  []
 
 
-Overfull \hbox (1638.37498pt too wide) in paragraph at lines 148--161
+Overfull \hbox (1638.37498pt too wide) in paragraph at lines 131--144
 []$
  []
 
 
-Overfull \hbox (6553.62498pt too wide) in paragraph at lines 148--161
+Overfull \hbox (6553.62498pt too wide) in paragraph at lines 131--144
 []$ 
  []
 
 ! Undefined control sequence.
-l.162 	\itex
-            {
+l.145 		\itex
+             {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8331,8 +6606,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 		\item S
-               tudy the lecture notes, i.e., try to understand the exercises...
+l.146 			\item S
+                tudy the lecture notes, i.e., try to understand the exercise...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8418,8 +6693,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 		\item S
-               tudy the exercises, i.e., try to understand the logical rules...
+l.147 			\item S
+                tudy the exercises, i.e., try to understand the logical rule...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8512,8 +6787,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 		\item T
-               est yourself with past exams that you will find online. .
+l.148 			\item T
+                est yourself with past exams that you will find online. .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -8572,8 +6847,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 		\item I
-               f you have the opportunity to form a group of students to stu...
+l.149 			\item I
+                f you have the opportunity to form a group of students to st...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8754,8 +7029,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 		\item I
-               f you have difficulties with some exercises and the solutions...
+l.150 			\item I
+                f you have difficulties with some exercises and the solution...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8893,11 +7168,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 57 strings out of 477884
- 1333 string characters out of 5835937
- 1863330 words of memory out of 5000000
- 20315 multiletter control sequences out of 15000+600000
+ 29 strings out of 476091
+ 539 string characters out of 5794081
+ 1861330 words of memory out of 5000000
+ 20510 multiletter control sequences out of 15000+600000
  512763 words of font info for 34 fonts, out of 8000000 for 9000
- 81 hyphenation exceptions out of 8191
- 18i,4n,23p,497b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1141 hyphenation exceptions out of 8191
+ 18i,3n,23p,498b,169s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

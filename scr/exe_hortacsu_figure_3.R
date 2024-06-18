@@ -1,3 +1,4 @@
+
 # setwd("~/Dropbox/hsf/courses/Rlang/hortacsu")
 
 rm(list = ls())
@@ -9,10 +10,10 @@ pacman::p_load(tidyverse, readxl)
 
 
 # Define the URL of the ZIP file
-zipF <- "https://github.com/hubchev/courses/raw/main/dta/113962-V1.zip"
+zip_f <- "https://github.com/hubchev/courses/raw/main/dta/113962-V1.zip"
 
 # Download the ZIP file
-download.file(zipF, destfile = "113962-V1.zip")
+download.file(zip_f, destfile = "113962-V1.zip")
 
 # Unzip the contents
 unzip("113962-V1.zip")
