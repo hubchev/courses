@@ -1,6 +1,6 @@
 ---
 title: "Project Submission Guidelines"
-subtitle: "Data Science for Business (SS 2024)"
+subtitle: "Data Science for Business (WS 2024/25)"
 author: 
     name: "© Prof. Dr. Stephan Huber"
     email: stephan.huber@hs-fresenius.de
@@ -22,8 +22,8 @@ format:
     number-sections: true
   pdf:
     keep-tex: false
-    template-partials: 
-      - title.tex
+    # template-partials: 
+    #   - title.tex
     include-in-header:
       text: |
         \usepackage[noblocks]{authblk}
@@ -33,7 +33,6 @@ format:
         \renewcommand\Affilfont{\small}
     documentclass: scrartcl
     classoption: [onecolumn, oneside, a4paper]
-    cite-method: natbib
     linkcolor: blue
     urlcolor: blue
     link-citations: true
@@ -68,46 +67,37 @@ Students show that they are capable of describing the status of their work, thei
 
 This year's project focuses on demonstrating the reproducibility of an empirical academic paper by accurately reproducing some of its empirical results. Students must consult with the lecturer to determine which sections of the chosen paper to replicate. This project is an opportunity for students to demonstrate their mastery of empirical research methodologies using R, as well as their proficiency with essential data science tools, including Markdown, Quarto, git, GitHub, and BibTeX.
 
+# Details about the things to do
 
-# Details about the things to do 
+## Choose a paper to reproduce
 
-## Submit your preferences
-
-Below you find a list of papers. Your task is to reproduce the empirical results of one of these papers. **I will assign you a paper by May 9.** You can influence my assignment by providing me with a list of your three preferred papers. **Please send me your preferences no later than May 8**. I will do my best to take your preferences into account.
+Below is a list of research papers. Your task is to replicate the empirical results of one of these studies. Please let me know your choice as soon as possible. Selections are on a first-come, first-served basis. If another student has already chosen a paper, I will notify you so that you can select an alternative.
 
 ::: {.callout-tip appearance="minimal"}
-1. @Bachas2024Tax: *Tax Equity in Low- and Middle-Income Countries*
-2. @Barrero2023Evolution: *Evolution of Work Patterns Post-COVID-19*
-3. @Chyn2021Neighborhoods: *Moved to Opportunity: The Long-Run Effects of Public Housing Demolition on Children*
-4. @Cochrane2022Fiscal: *Fiscal Theory of the Price Level*
-5. @Corrado2022Intangible: *Intangible Capital and Growth Strategies for Advanced Economies*
-6. @Deming2022Four: *The Growing Importance of Social Skills in the Labor Market*
-7. @Jack2023COVID: *COVID-19 and Educational Attainment: Learning Loss in the Covid Era*
-8. @Jones2021Rise: *The Rise of Innovation in China: Challenges and Opportunities*
-9. @Kearney2022Puzzle: *Labor Market Challenges and Opportunities in the Post-Pandemic Era*
-10. @Kreiner2022Danish: *Inequality in the 21st Century: A Danish Perspective*
-11. @Levinson2023Are: *Are Environmental Regulations Effective in Promoting Sustainable Development?*
-12. @Lissoni2024Migration: *Migration and Innovation: Learning from Patent and Inventor Data*
-13. @Marie2024Immigration: *Immigration and Crime: An International Perspective*
-14. @Morgan2023Economic: *Economic Considerations for Health Policy Post-Pandemic*
-15. @Okunogbe2024How: *How Can Lower-Income Countries Collect More Taxes? The Role of Technology, Tax Agents, and Politics*
-16. @Price2023What: *What Can Historically Black Colleges and Universities Teach about Improving Higher Education Outcomes for Black Students?*
-17. @Rogoff2022Emerging: *Emerging Markets and the Global Economy in the Post-COVID World*
-18. @Sloane2021College: *College Admissions in America: Challenges for Diversity and Inclusion*
+1.  @Jack2023COVID: *COVID-19 and Educational Attainment: Learning Loss in the Covid Era*
+2.  @Kearney2022Puzzle: *Labor Market Challenges and Opportunities in the Post-Pandemic Era*
+3.  @Morgan2023Economic: *Economic Considerations for Health Policy Post-Pandemic*[^1]
+4.  @Okunogbe2024How: *How Can Lower-Income Countries Collect More Taxes? The Role of Technology, Tax Agents, and Politics*
+5.  @Price2023What: *What Can Historically Black Colleges and Universities Teach about Improving Higher Education Outcomes for Black Students?*
+6.  @Rogoff2022Emerging: *Emerging Markets and the Global Economy in the Post-COVID World*
+7.  @Sloane2021College: *College Admissions in America: Challenges for Diversity and Inclusion*
 :::
 
+[^1]: If you choose this paper, I will provide the dataset for your convenience.
 
 ## Conduct the reproduction study
 
-Your task is to replicate the paper's results using the programming language R. Recognizing the constraints of time, fully reproducing every statistic, table, and graph from the paper might not be feasible, and that's perfectly acceptable.
+Your task is to reproduce the paper's results using the programming language R. Recognizing the constraints of time, fully reproducing every statistic, table, and graph from the paper might not be feasible, and that's perfectly acceptable.
 
 To ensure a focused and achievable project scope, please talk with me at least once during your study to align on what aspects are essential to replicate or investigate further. This consultation will help us stay in sync and clarify the priorities for your work.
 
 I encourage you to reach out to me proactively instead of waiting for me to initiate contact to ensure that we are fully aligned and understand each other's expectations and progress.
 
-## Prepare a presentation and publish it on GitHub Pages
+## Give a presentation and publish it on GitHub Pages
 
-Create a presentation using (R) Markdown and **Quarto**, and subsequently **publish it as a website through GitHub**. How to use Markdown and Quarto as well as how to publish a website on GitHub is explained [here](https://hubchev.github.io/dsbl/) [see @Huber2024Data]. 
+Create a presentation using (R) Markdown and **Quarto**, and subsequently **publish it as a website through GitHub**. How to use Markdown and Quarto as well as how to publish a website on GitHub is explained [here](https://hubchev.github.io/dsbl/) [see @Huber2024Data].
+
+The presentation takes place on 20.12.2024 in 4e OG3.
 
 Given the limited presentation time, prioritize key points to ensure you stay within the given timeframe without overly promoting yourself. Briefly describe and present the research paper, focusing more extensively on the dataset utilized in your study. The presentation should serve as a progress report, highlighting ongoing work rather than concluded results.
 
@@ -136,7 +126,7 @@ Please put some emphasize on guiding and motivating the reader. For example, the
 
 I recommend writing the report as a Quarto book. @Telford2023Markdown is a good tutorial on how to write with Markdown and Quarto. Additionally, I recommend reading @Huber2024Data. For guidance on creating a standalone HTML file, refer to [this resource](https://quarto.org/docs/output-formats/html-publishing.html#standalone-html).
 
-Incorporate all R code relevant to reproducing the empirical findings directly into your Quarto file using code chunks. Your QMD file(s) must document the complete workflow, encompassing data import, cleaning, and analysis. While all code  should be included, it's not necessary to display every message and output generated by the code in the PDF document.
+Incorporate all R code relevant to reproducing the empirical findings directly into your Quarto file using code chunks. Your QMD file(s) must document the complete workflow, encompassing data import, cleaning, and analysis. While all code should be included, it's not necessary to display every message and output generated by the code in the PDF document.
 
 The outline of the paper must contain at least the following building blocks:
 
@@ -156,7 +146,6 @@ As mentioned above, you should publish your presentation using GitHub pages. Fur
 *Your report should contain the following **Affidavit**. Simply, fill it out and put it at the end of your report. You can check the box like this:*
 
 -   [x] I checked this box
-
 
 ::: {.callout-tip appearance="minimal"}
 I hereby affirm that this submitted paper was authored unaided and solely by me. Additionally, no other sources than those in the reference list were used. Parts of this paper, including tables and figures, that have been taken either verbatim or analogously from other works have in each case been properly cited with regard to their origin and authorship. This paper either in parts or in its entirety, be it in the same or similar form, has not been submitted to any other examination board and has not been published.
@@ -223,4 +212,3 @@ The project submission includes:
 
 ::: {#refs}
 :::
-
