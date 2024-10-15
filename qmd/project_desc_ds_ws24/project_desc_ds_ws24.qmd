@@ -69,21 +69,21 @@ This year's project focuses on demonstrating the reproducibility of an empirical
 
 # Details about the things to do
 
-## Choose a paper to reproduce
+## Assignment of the Paper to reproduce
 
-Below is a list of research papers. Your task is to replicate the empirical results of one of these studies. Please let me know your choice as soon as possible. Selections are on a first-come, first-served basis. If another student has already chosen a paper, I will notify you so that you can select an alternative.
+Below is a list of research papers. Your task is to replicate the empirical results of one of these studies. Please find your name next to the paper you should reproduce. 
 
 ::: {.callout-tip appearance="minimal"}
-1.  @Jack2023COVID: *COVID-19 and Educational Attainment: Learning Loss in the Covid Era*
-2.  @Kearney2022Puzzle: *Labor Market Challenges and Opportunities in the Post-Pandemic Era*
-3.  @Morgan2023Economic: *Economic Considerations for Health Policy Post-Pandemic*[^1]
-4.  @Okunogbe2024How: *How Can Lower-Income Countries Collect More Taxes? The Role of Technology, Tax Agents, and Politics*
-5.  @Price2023What: *What Can Historically Black Colleges and Universities Teach about Improving Higher Education Outcomes for Black Students?*
-6.  @Rogoff2022Emerging: *Emerging Markets and the Global Economy in the Post-COVID World*
+1.  @Jack2023COVID: *COVID-19 and Educational Attainment: Learning Loss in the Covid Era* (Mariia Liersch)
+2.  @Kearney2022Puzzle: *Labor Market Challenges and Opportunities in the Post-Pandemic Era* (Venkatesh Kannan)
+3.  @Morgan2023Economic: *Economic Considerations for Health Policy Post-Pandemic*[^1] (Pooja Ravanasamuthram Krishnan)
+4.  @Okunogbe2024How: *How Can Lower-Income Countries Collect More Taxes? The Role of Technology, Tax Agents, and Politics* (Arunima Pandey)
+5.  @Price2023What: *What Can Historically Black Colleges and Universities Teach about Improving Higher Education Outcomes for Black Students?* (Manvanth Sundareshan)
+6.  @Rogoff2022Emerging: *Emerging Markets and the Global Economy in the Post-COVID World* (Tanmay Ubhate)
 7.  @Sloane2021College: *College Admissions in America: Challenges for Diversity and Inclusion*
 :::
 
-[^1]: If you choose this paper, I will provide the dataset for your convenience.
+[^1]: If you work on this paper, I will provide the dataset for your convenience.
 
 ## Conduct the reproduction study
 
@@ -97,7 +97,7 @@ I encourage you to reach out to me proactively instead of waiting for me to init
 
 Create a presentation using (R) Markdown and **Quarto**, and subsequently **publish it as a website through GitHub**. How to use Markdown and Quarto as well as how to publish a website on GitHub is explained [here](https://hubchev.github.io/dsbl/) [see @Huber2024Data].
 
-The presentation takes place on 20.12.2024 in 4e OG3.
+The presentations will take place on October 30, 2024, at 14:00 and on December 20, 2024, at 12:30 in room 4e OG3. You can choose which date to give your presentation. However, please note that if you miss the October opportunity, you must attend the presentation on December 20, 2024.
 
 Given the limited presentation time, prioritize key points to ensure you stay within the given timeframe without overly promoting yourself. Briefly describe and present the research paper, focusing more extensively on the dataset utilized in your study. The presentation should serve as a progress report, highlighting ongoing work rather than concluded results.
 
