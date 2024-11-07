@@ -1,7 +1,7 @@
 ## ---- echo = TRUE--------------------------------------------------
 # install and load packages
 if (!require(pacman)) install.packages("pacman")
-pacman::p_load(tidyverse, haven)
+pacman::p_load(tidyverse, haven, ggplot2, sjPlot)
 
 classdata <- read.csv("https://raw.githubusercontent.com/hubchev/courses/main/dta/classdata.csv")
 
@@ -12,7 +12,6 @@ head(classdata)
 summary(classdata)
 
 ## ----pressure, echo=TRUE-------------------------------------------
-library("ggplot2")
 ggplot(classdata, aes(x = height, y = weight)) +
   geom_point()
 
@@ -79,7 +78,7 @@ m3 <- lm(weight ~ height + sex + height * sex, data = classdata)
 m4 <- lm(weight ~ height + sex + height * sex + siblings, data = classdata)
 m5 <- lm(weight ~ height + sex + height * sex, data = subset(classdata, siblings < 4))
 
-library(sjPlot)
+
 tab_model(m1, m2, m3, m4, m5,
   p.style = "stars",
   p.threshold = c(0.2, 0.1, 0.05),
@@ -107,8 +106,5 @@ tab_model(m3, m5,
 plot(residuals(m3), fitted(m3))
 plot(residuals(m3), classdata$siblings)
 
-## ----eval=FALSE----------------------------------------------------
-#  rmarkdown::render("regress_lecture.Rmd", "all")
-
 #  unload packages
-suppressMessages(pacman::p_unload(tidyverse, haven))
+suppressMessages(pacman::p_unload(tidyverse, haven, sjPlot))

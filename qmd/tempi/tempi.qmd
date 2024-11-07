@@ -1,0 +1,84 @@
+---
+title: "Project Submission Guidelines"
+subtitle: "Data Science for Business (SS 2024)"
+author: 
+    name: "© Prof. Dr. Stephan Huber"
+    email: stephan.huber@hs-fresenius.de
+    affiliation: 
+      - Hochschule Fresenius - University of Applied Science
+      - "Email: stephan.huber@hs-fresenius.de"
+      - "Website: https://hubchev.github.io"
+date: today
+date-format: long
+abstract: |
+    This is an abstract. 
+format:
+  html: 
+    embed-resources: true
+    theme: journal
+    toc: true
+    toc-expand: 2
+    toc-depth: 2
+    number-sections: true
+    fig-cap-location: top
+  pdf:
+    keep-tex: false
+    documentclass: scrartcl
+    classoption: [onecolumn, oneside, a4paper]
+    cite-method: natbib
+    linkcolor: blue
+    urlcolor: blue
+    link-citations: true
+    filecolor: magenta
+    citecolor: magenta
+    colorlinks: true
+    margin-left: "20mm"
+    margin-right: "20mm"
+    margin-top: "30mm"
+    margin-bottom: "30mm" 
+    papersize: a4
+    fig-cap-location: top
+    toc: false
+    toc-depth: 5
+    number-sections: true
+    lof: false
+    lot: false
+bibliography: "aeaweb.bib"
+csl: "https://www.zotero.org/styles/apa"
+---
+
+\clearpage
+
+# Heading {#sec-intro}
+
+@brendel2020purpose[p. 12] is from my favorite lecturer [@brendel2020purpose].
+
+@tbl-sometable is a table and @fig-me is a picture.
+
+::: {#tbl-sometable}
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+title 
+:::
+
+
+::: {#fig-me}
+![](Huber01_head_small_rev.png){width="3%"}
+
+
+
+
+
+This is me
+
+:::
+
+# Literature
+
+::: {#refs}
+:::
+
