@@ -71,16 +71,16 @@ This year's project focuses on demonstrating the reproducibility of an empirical
 
 ## Assignment of the Paper to reproduce
 
-Below is a list of research papers. Your task is to replicate the empirical results of one of these studies. Please find your name next to the paper you should reproduce. 
+Below is a list of research papers. Your task is to replicate the empirical results of one of these studies. Please find your name next to the paper you should reproduce.
 
 ::: {.callout-tip appearance="minimal"}
-1.  @Jack2023COVID: *COVID-19 and Educational Attainment: Learning Loss in the Covid Era* (Mariia Liersch)
-2.  @Kearney2022Puzzle: *Labor Market Challenges and Opportunities in the Post-Pandemic Era* (Venkatesh Kannan)
-3.  @Morgan2023Economic: *Economic Considerations for Health Policy Post-Pandemic*[^1] (Pooja Ravanasamuthram Krishnan)
+1.  @Jack2023COVID: *COVID-19, School Closures, and Outcomes* (Mariia Liersch)
+2.  @Kearney2022Puzzle: *The Puzzle of Falling US Birth Rates since the Great Recession* (Venkatesh Kannan)
+3.  @Morgan2023Economic: *Economic Sanctions: Evolution, Consequences, and Challenges*[^1] (Pooja Ravanasamuthram Krishnan)
 4.  @Okunogbe2024How: *How Can Lower-Income Countries Collect More Taxes? The Role of Technology, Tax Agents, and Politics* (Arunima Pandey)
 5.  @Price2023What: *What Can Historically Black Colleges and Universities Teach about Improving Higher Education Outcomes for Black Students?* (Manvanth Sundareshan)
-6.  @Rogoff2022Emerging: *Emerging Markets and the Global Economy in the Post-COVID World* (Tanmay Ubhate)
-7.  @Sloane2021College: *College Admissions in America: Challenges for Diversity and Inclusion*
+6.  @Rogoff2022Emerging: *Emerging Market Sovereign Debt in the Aftermath of the Pandemic* (Tanmay Ubhate)
+7.  @Sloane2021College: *College Majors, Occupations, and the Gender Wage Gap*
 :::
 
 [^1]: If you work on this paper, I will provide the dataset for your convenience.
