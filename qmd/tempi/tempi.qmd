@@ -15,12 +15,13 @@ abstract: |
 format:
   html: 
     embed-resources: true
-    theme: journal
+    theme: simple
     toc: true
     toc-expand: 2
     toc-depth: 2
     number-sections: true
     fig-cap-location: top
+    code-tools: true
   pdf:
     keep-tex: false
     documentclass: scrartcl
@@ -29,8 +30,8 @@ format:
     linkcolor: blue
     urlcolor: blue
     link-citations: true
-    filecolor: magenta
-    citecolor: magenta
+    filecolor: blue
+    citecolor: blue
     colorlinks: true
     margin-left: "20mm"
     margin-right: "20mm"
@@ -38,7 +39,7 @@ format:
     margin-bottom: "30mm" 
     papersize: a4
     fig-cap-location: top
-    toc: false
+    toc: true
     toc-depth: 5
     number-sections: true
     lof: false
@@ -51,11 +52,12 @@ csl: "https://www.zotero.org/styles/apa"
 
 # Heading {#sec-intro}
 
-@brendel2020purpose[p. 12] is from my favorite lecturer [@brendel2020purpose].
+@brendel2020purpose[p. 12] is a reference to a paper. I can also cite it in brackets [@brendel2020purpose, p. 12].
 
 @tbl-sometable is a table and @fig-me is a picture.
 
 ::: {#tbl-sometable}
+
 | Col1 | Col2 | Col3 |
 |------|------|------|
 | A    | B    | C    |

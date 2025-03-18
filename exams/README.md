@@ -8,6 +8,7 @@ Here you will find a collection of my old (mock) exams, organized by course acro
 | dsda | Data Science and Data Analytics | 
 | etgc  | Economic Thinking in a Global Context |
 | ie | 	International Economics| 
+| iegr | International Economics & Global Relations |
 | instat |	Inferential Statistics|
 | jdm	| Judgement and Decision Making| 
 | macro |	Macroeconomics | 
