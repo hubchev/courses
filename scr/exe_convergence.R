@@ -35,7 +35,7 @@ stat.desc(data)
 describe(data)
 
 # library(gtsummary)
-tbl_summary(data)
+# tbl_summary(data)
 
 # check the assignments of countries to continents
 data |>
