@@ -1,0 +1,250 @@
+% Encoding: UTF-8
+
+@Book{Wickham2018R,
+  title     = {R for Data Science: Import, Tidy, Transform, Visualize, and Model Data},
+  publisher = {O'Reilly},
+  year      = {2018},
+  author    = {Wickham, Hadley and Grolemund, Garrett},
+  location  = {Sebastopol, CA},
+  owner     = {stephan},
+  timestamp = {2019-12-16},
+}
+
+@Book{Xie2018R,
+  title        = {R Markdown: The Definitive Guide},
+  publisher    = {Chapman and Hall/CRC},
+  year         = {2018},
+  author       = {Xie, Yihui and Allaire, Joseph J and Grolemund, Garrett},
+  howpublished = {Retrieved January 30, 2023},
+  timestamp    = {2022-04-30},
+  url          = {https://bookdown.org/yihui/rmarkdown/},
+}
+
+@Article{Huber2016Calculate,
+  author    = {Stephan Huber and Christoph Rust},
+  title     = {Calculate travel time and distance with OpenStreetMap data using the Open Source Routing Machine (OSRM)},
+  journal   = {The Stata Journal},
+  year      = {2016},
+  volume    = {16},
+  number    = {2},
+  pages     = {416-423},
+  file      = {Huber2016Calculate.pdf:Huber2016Calculate.pdf:PDF},
+  owner     = {stephan},
+  timestamp = {2022-10-13},
+}
+
+@TechReport{Kirchkamp2018Using,
+  author       = {Oliver Kirchkamp},
+  title        = {Using Graphs and Visualising Data},
+  year         = {2018},
+  howpublished = {Retrieved January 30, 2023},
+  timestamp    = {2022-05-23},
+  url          = {https://www.kirchkamp.de/oekonometrie/pdf/gra-p.pdf},
+}
+
+@Article{Tsiligiris2018adapted,
+  author    = {Tsiligiris, Vangelis},
+  title     = {An adapted Porter Diamond Model for the evaluation of transnational education host countries},
+  journal   = {International Journal of Educational Management},
+  year      = {2018},
+  volume    = {2},
+  number    = {3},
+  pages     = {1-99},
+  publisher = {Emerald Publishing Limited},
+  timestamp = {2022-11-24},
+}
+
+@Book{Xie2020R,
+  title        = {R Markdown Cookbook},
+  publisher    = {Chapman and Hall/CRC},
+  year         = {2020},
+  author       = {Xie, Yihui and Dervieux, Christophe and Riederer, Emily},
+  howpublished = {Retrieved January 30, 2023},
+  lastvisited  = {2012-03-20},
+  timestamp    = {2023-05-10},
+  url          = {https://bookdown.org/yihui/rmarkdown-cookbook},
+}
+
+@Misc{Google2023Google,
+  author       = {Google},
+  title        = {Google Search},
+  howpublished = {Accessed January 30, 2023},
+  year         = {2023},
+  timestamp    = {2023-02-09},
+  url          = {https://www.google.com/},
+}
+
+@Book{Hildebrandt2019Handbook,
+  title     = {Handbook of Academic Writings},
+  publisher = {VNR Verlag f{\"u}r die Deutsche Wirtschaft},
+  year      = {2019},
+  editor    = {Hildebrandt, Jens and Nelke, Matthias},
+  address   = {Bonn, Germany},
+  timestamp = {2023-04-14},
+}
+
+@Unpublished{unpublished,
+  author = {Andy Unpublished},
+  title  = {The title of the work},
+  month  = {7},
+  year   = {1993},
+}
+
+@TechReport{techreport,
+  author      = {Peter WorkingPaper},
+  title       = {The title of the work},
+  institution = {The institution that published},
+  year        = {1993},
+  number      = {2},
+  address     = {The address of the publisher},
+  month       = {7},
+}
+
+@PhdThesis{phdthesis,
+  author  = {Andreas PHD},
+  title   = {The title of the work},
+  school  = {The school of the thesis},
+  year    = {2011},
+  address = {The address of the publisher},
+  month   = {7},
+}
+
+@Misc{misc,
+  author       = {Alexandra Misc},
+  title        = {The title of the work},
+  howpublished = {How it was published},
+  month        = {4},
+  year         = {1993},
+}
+
+@MastersThesis{mastersthesis,
+  author  = {Alex Masterthesis},
+  title   = {The title of the work},
+  school  = {The school of the thesis},
+  year    = {2004},
+  address = {The address of the publisher},
+  month   = {10},
+}
+
+@InCollection{incollection,
+  author    = {Eli Editor},
+  title     = {The title of the work},
+  booktitle = {The title of the book},
+  publisher = {The name of the publisher},
+  year      = {2022},
+  editor    = {The editor},
+  volume    = {4},
+  series    = {2},
+  chapter   = {8},
+  pages     = {101-114},
+  address   = {The address of the publisher},
+  edition   = {3},
+  month     = {7},
+}
+
+@InBook{inbook,
+  chapter   = {8},
+  pages     = {201-213},
+  title     = {The title of the work},
+  publisher = {The name of the publisher},
+  year      = {1993},
+  author    = {Suzy Inbook},
+  volume    = {4},
+  series    = {5},
+  address   = {The address of the publisher},
+  edition   = {3},
+  month     = {7},
+}
+
+@Conference{conference,
+  author       = {David Conference},
+  title        = {The title of the work},
+  booktitle    = {The title of the book},
+  year         = {1986},
+  editor       = {The editor},
+  volume       = {4},
+  series       = {5},
+  pages        = {213},
+  address      = {The address of the publisher},
+  month        = {7},
+  organization = {The organization},
+  publisher    = {The publisher},
+}
+
+@Booklet{booklet,
+  title        = {The title of the work},
+  author       = {Betty Booklet},
+  howpublished = {How it was published},
+  address      = {The address of the publisher},
+  month        = {7},
+  year         = {1996},
+}
+
+@Book{book,
+  title     = {The title of the work},
+  publisher = {The name of the publisher},
+  year      = {2023},
+  author    = {Debbie Book},
+  volume    = {4},
+  series    = {10},
+  address   = {The address},
+  edition   = {3},
+  month     = {7},
+  isbn      = {3257442892},
+}
+
+@Article{article,
+  author  = {Sepp Article},
+  title   = {The title of the work},
+  journal = {The name of the journal},
+  year    = {2011},
+  volume  = {4},
+  number  = {2},
+  pages   = {201-213},
+  month   = {7},
+}
+
+@Proceedings{proceedings,
+  title        = {The title of the work},
+  year         = {1993},
+  editor       = {Luc Proceedings},
+  volume       = {4},
+  series       = {5},
+  address      = {The address of the publisher},
+  publisher    = {The name of the publisher},
+  month        = {7},
+  organization = {The organization},
+}
+
+@Misc{webpage,
+  author = {Author Website},
+  title  = {Website Title},
+  year   = {2023},
+  note   = {Accessed on April 14, 2023},
+  url    = {http://website-url.com},
+}
+
+@Article{brendel2020purpose,
+  author  = {Brendel, Dominik},
+  title   = {Purpose: A foundational theory for an up-and-coming topic},
+  journal = {Marketing Review St. Gallen},
+  year    = {2020},
+  volume  = {4},
+  pages   = {10--16},
+}
+
+@Article{Huber2017Vertical,
+  author   = {Huber, Stephan and Nguyen Thanh, Binh},
+  title    = {Vertical specialization in the EU and the causality of trade.},
+  journal  = {Applied Economics Letters},
+  year     = {2017},
+  volume   = {24},
+  number   = {5},
+  pages    = {329 - 333},
+  issn     = {13504851},
+  abstract = {We use a novel classification scheme to identify three stages of production in the manufacturing sector: parts, components and final goods. In particular, we offer evidence on the revealed comparative advantage of the EU-27 countries concerning the three vertically separated stages of production. Moreover, we investigate whether, and if so how, imports of parts, and components can work as a predictor for the exports of final goods. We find that countries specialize at different stages of production, and that components are Granger causal for the export of final goods in many countries with a lag of 3 months. [ABSTRACT FROM AUTHOR]},
+  keywords = {Manufacturing industries, Production (Economic theory), Comparative advantage (International trade), Imports, Granger causality test, Causality, revealed comparative advantage, trade in parts and components, vertical production process, European Union},
+  url      = {https://search.ebscohost.com/login.aspx?direct=true&db=bsu&AN=120012723&site=ehost-live},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

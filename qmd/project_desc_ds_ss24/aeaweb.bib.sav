@@ -290,18 +290,6 @@
   url       = {https://biostats-r.github.io/biostats/quarto/},
 }
 
-@article{brendel2020purpose,
-  title={Purpose: A foundational theory for an up-and-coming topic},
-  author={Brendel, Dominik},
-  journal={Marketing Review St. Gallen},
-  volume={37},
-  number={4},
-  pages={10--16},
-  year={2020},
-  publisher={Thexis Verlag}
-}
-
-
 @Misc{Huber2024Data,
   author    = {Stephan Huber},
   title     = {Data Science for Business Leaders},
